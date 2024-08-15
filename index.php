@@ -1,878 +1,576 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />    <meta name="author" content="INSPIRO" />    
-	<meta name="description" content="Themeforest Template Polo, html template">
-    <link rel="icon" type="image/png" href="images/favicon.png">   
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Document title -->
-    <title>POLO | The Multi-Purpose HTML5 Template</title>
-    <!-- Stylesheets & Fonts -->
-    <link href="./assets/css/plugins.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
-
-    <!-- CSS HOTEL STYLE -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/hotel-style.css" media="screen" />
-</head>
-
-<body>
-
-
-    <!-- Body Inner -->
-    <div class="body-inner">
-
-        <!-- Topbar -->
-        <div id="topbar" class="topbar-transparent dark submenu-light d-none d-xl-block d-lg-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <ul class="top-menu">
-                            <li><a href="#">Phone: +971561652741 / +971543379025</a></li>
-                            <li><a href="#">Email: althabitahjenny@gmail.com / althabitahjenny@gmail.com</a></li>
-                        </ul>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Crafto - The Multipurpose HTML5 Template</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="ThemeZaa">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
+        <!-- favicon icon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- google fonts preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- style sheets and font icons  -->
+        <link rel="stylesheet" href="./assets/css/vendors.min.css"/>
+        <link rel="stylesheet" href="./assets/css/icon.min.css"/>
+        <link rel="stylesheet" href="./assets/css/style.min.css"/>
+        <link rel="stylesheet" href="./assets/css/responsive.min.css"/>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body data-mobile-nav-style="classic">
+        <!-- start header -->
+        <header>
+            <div class="header-top-bar top-bar-light bg-dark md-border-bottom border-color-transparent-dark-very-light disable-fixed" style="top: 0px;">
+                <div class="container-fluid">
+                    <div class="row h-45px align-items-center m-0">
+                        <div class="col-xl-6 col-lg-4j ustify-content-center justify-content-lg-start">
+                            <a href="tel:971561652741" class="widget fs-15 text-light text-light-hover"><i class="feather icon-feather-phone-call text-base-color"></i>+971 5 616 52741</a>
+                            <div class="widget fs-15 ms-30px text-light d-none d-xl-inline-block"><i class="feather icon-feather-map-pin text-base-color"></i> Al Rashidiya 2, Al Kaabi Building, Ajman</div> 
+                        </div>
+                        <div class="col-xl-6 col-lg-8 text-end header-icon d-none d-lg-flex">
+                            <div class="header-social-icon icon">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f fs-15"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-youtube fs-15"></i></a>
+                                <a href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-instagram fs-15"></i></a>
+                                <a href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-tiktok fs-15"></i></a>
+                                <a href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-whatsapp fs-15"></i></a>
+                            </div> 
+                        </div>
                     </div>
-                    <div class="col-md-3 d-none d-sm-block">
-                        <div class="social-icons social-icons-colored-hover">
-                            <ul>
-                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="social-google"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
+                </div>
+            </div>
+            <!-- start navigation -->
+            <nav class="navbar navbar-expand-lg header-light bg-white border-bottom border-color-extra-medium-gray header-reverse" data-header-hover="light">
+                <div class="container-fluid"> 
+                    <div class="col-auto">
+                        <a class="navbar-brand" href="demo-real-estate.html">
+                            <img src="./assets/images/logo.png" data-at2x="./assets/images/logo.png" alt="" class="default-logo">
+                            <img src="./assets/images/logo.png" data-at2x="./assets/images/logo.png" alt="" class="alt-logo">
+                            <img src="./assets/images/logo.png" data-at2x="./assets/images/logo.png" alt="" class="mobile-logo">
+                        </a>
+                    </div>
+                    <div class="col-auto menu-order left-nav ps-60px lg-ps-20px">
+                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav alt-font">
+                                <li class="nav-item"><a href="demo-real-estate.html" class="nav-link">Home</a></li> 
+                                <li class="nav-item"><a href="demo-real-estate-about.html" class="nav-link">About</a></li>
+                                <li class="nav-item dropdown submenu">
+                                    <a href="demo-real-estate-rent.html" class="nav-link">Rent</a>
+                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                    <div class="dropdown-menu submenu-content" aria-labelledby="navbarDropdownMenuLink1"> 
+                                        <div class="d-lg-flex mega-menu m-auto ps-5 pe-5 md-ps-0 md-pe-0 md-pt-15px">
+                                            <div class="row row-cols-2 row-cols-lg-5 row-cols-sm-3 w-100 mx-0 align-items-center justify-content-center">
+                                                <div class="col md-mb-30px">
+                                                    <a href="demo-real-estate-rent.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-apartment.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">20K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Apartment</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col md-mb-30px">
+                                                    <a href="demo-real-estate-rent.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-condominium.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">18K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Condominium</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col md-mb-30px">
+                                                    <a href="demo-real-estate-rent.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-home.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">10K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Home</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col xs-mb-30px">
+                                                    <a href="demo-real-estate-rent.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-office.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">17K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Office</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a href="demo-real-estate-rent.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-shop.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">09K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Shop</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown submenu">
+                                    <a href="demo-real-estate-sell.html" class="nav-link">Sell<span class="label bg-light-red text-red border-radius-26px">Hot</span></a>
+                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                    <div class="dropdown-menu submenu-content" aria-labelledby="navbarDropdownMenuLink2"> 
+                                        <div class="d-lg-flex mega-menu m-auto ps-5 pe-5 md-ps-0 md-pe-0 md-pt-15px">
+                                            <div class="row row-cols-2 row-cols-lg-5 row-cols-sm-3 w-100 mx-0 align-items-center justify-content-center">
+                                                <div class="col md-mb-30px">
+                                                    <a href="demo-real-estate-sell.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-apartment.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">20K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Apartment</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col md-mb-30px">
+                                                    <a href="demo-real-estate-sell.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-condominium.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">18K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Condominium</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col md-mb-30px">
+                                                    <a href="demo-real-estate-sell.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-home.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">10K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Home</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col xs-mb-30px">
+                                                    <a href="demo-real-estate-sell.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-office.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">17K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Office</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a href="demo-real-estate-sell.html" class="opacity-10 text-center justify-content-center flex-column d-flex">
+                                                        <span class="w-120px h-120px mb-15px mx-auto bg-white d-flex justify-content-center border-radius-100px box-shadow-large box-shadow-large-hover position-relative">
+                                                            <img src="images/demo-real-estate-icon-shop.svg" class="w-50px" alt="">
+                                                            <span class="text-uppercase alt-font fw-700 text-base-color fs-12 lh-22 bg-base-color-transparent border-radius-4px position-absolute right-minus-5px top-5px ps-10px pe-10px">09K</span>
+                                                        </span>
+                                                        <span class="alt-font fw-600 fs-17 text-dark-gray">Shop</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown dropdown-with-icon">
+                                    <a href="demo-real-estate-agents.html" class="nav-link">Agents</a>
+                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                                        <li>
+                                            <a href="demo-real-estate-agent-details.html"><img src="images/avtar-24.jpg" alt="">
+                                                <div class="submenu-icon-content">
+                                                    <span>Evan thomson</span>
+                                                    <p>I'm Evan, Expert in sales executive.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="demo-real-estate-agent-details.html"><img src="images/avtar-25.jpg" alt="">
+                                                <div class="submenu-icon-content">
+                                                    <span>Bryan jonhson</span>
+                                                    <p>I'm Bryan, Expert in property broker.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="demo-real-estate-agent-details.html"><img src="images/avtar-26.jpg" alt="">
+                                                <div class="submenu-icon-content">
+                                                    <span>Jemmy watson</span>
+                                                    <p>I'm Jemmy, Expert in property lawyer.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="demo-real-estate-agent-details.html"><img src="images/avtar-27.jpg" alt="">
+                                                <div class="submenu-icon-content">
+                                                    <span>Jeremy dupont</span>
+                                                    <p>I'm Jeremy, Expert in property broker.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="demo-real-estate-agents.html" class="btn btn-dark-gray btn-round-edge align-self-center text-center text-white">All view agents</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="demo-real-estate-blog.html" class="nav-link">Blog</a></li>
+                                <li class="nav-item"><a href="demo-real-estate-contact.html" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- end: Topbar -->
-
-        <!-- Header -->
-        <header id="header" data-transparent="true" class="dark submenu-light">
-            <div class="header-inner">
-                <div class="container">
-                    <!--Logo-->
-                    <div id="logo"> <img src="./assets/images/logo/logo.png" class="hei-50"> </div>
-                    <!--End: Logo-->
-                    <!-- Search -->
-                    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
-                        <form class="search-form" action="search-results-page.html" method="get">
-                            <input class="form-control" name="q" type="text" placeholder="Type & Search..." />
-                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
-                        </form>
-                    </div> <!-- end: search -->
-                    <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li> <a id="btn-search" href="#"> <i class="icon-search"></i></a> </li>
-                            <li>
-                                <div class="p-dropdown"> <a href="#"><i class="icon-globe"></i><span>EN</span></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="#">French</a></li>
-                                        <li><a href="#">Spanish</a></li>
-                                        <li><a href="#">English</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--end: Header Extras-->
-                    <!--Navigation Resposnive Trigger-->
-                    <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a> </div>
-                    <!--end: Navigation Resposnive Trigger-->
-                    <!--Navigation-->
-                    <div id="mainMenu">
-                        <div class="container">
-                            <nav>
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="#">Layout</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Topbar</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="header-topbar.html">Light</a></li>
-                                                    <li><a href="header-topbar-dark.html">Dark</a></li>
-                                                    <li><a href="header-topbar-transparent.html">Transparent</a></li>
-                                                    <li><a href="header-topbar-colored.html">Colored</a></li>
-                                                    <li><a href="header-topbar-fullwidth.html">Fullwidth</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Header</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="header.html">Light</a></li>
-                                                    <li><a href="header-dark.html">Dark</a></li>
-                                                    <li><a href="header-transparent.html">Transparent</a></li>
-                                                    <li><a href="header-fullwidth.html">Fullwidth</a></li>
-                                                    <li class="dropdown-submenu"><a href="#">Modern</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="header-modern.html">Light</a></li>
-                                                            <li><a href="header-modern-dark.html">Dark</a></li>
-                                                            <li><a href="header-modern-transparent.html">Transparent</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="header-mini.html">Mini</a></li>
-                                                    <li><a href="header-alternative.html">Alternative</a></li>
-                                                    <li><a href="header-always-fixed.html">Always Fixed</a></li>
-                                                    <li><a href="header-disable-fixed.html">Disable Fixed</a></li>
-                                                    <li><a href="header-responsive-fixed.html">Responsive Fixed</a></li>
-                                                    <li class="dropdown-submenu"><a href="#">Logo</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="header-logo.html">Left</a></li>
-                                                            <li><a href="header-logo-right.html">Right</a></li>
-                                                            <li><a href="header-logo-center.html">Center</a></li>
-                                                            <li><a href="header-logo-fixed-header.html">Header Fixed Logo</a></li>
-                                                            <li><a href="header-logo-responsive.html">Header Responsive Logo</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown-submenu"><a href="#">Menu Positions</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="header-menu-left.html">Left</a></li>
-                                                            <li><a href="header-menu-right.html">Right</a></li>
-                                                            <li><a href="header-menu-center.html">Center</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Main Menu<span class="badge badge-danger">NEW</span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="menu.html">Default</a></li>
-                                                    <li><a href="menu-lowercase.html">Lowercase</a></li>
-                                                    <li><a href="menu-split.html">Split Menu</a></li>
-                                                    <li><a href="menu-sub-title.html">Sub Title Menu</a></li>
-                                                    <li><a href="menu-overlay.html">Overlay Menu</a></li>
-                                                    <li><a href="menu-creative.html">Creative Menu</a></li>
-                                                    <li><a href="menu-lines.html">Lines Menu</a></li>
-                                                    <li class="dropdown-submenu"><a href="#">Outline</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="menu-outline.html">Default</a></li>
-                                                            <li><a href="menu-outline-dark.html">Dark</a></li>
-                                                            <li><a href="menu-outline-light.html">Light</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown-submenu"><a href="#">Rounded</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="menu-rounded.html">Default</a></li>
-                                                            <li><a href="menu-rounded-dark.html">Dark</a></li>
-                                                            <li><a href="menu-rounded-light.html">Light</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown-submenu"><a href="#">Positions</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="menu-left.html">Left Aligned</a></li>
-                                                            <li><a href="menu-center.html">Center Aligned</a></li>
-                                                            <li><a href="menu-right.html">Right Aligned</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="menu-dots.html">Dots Menu</a></li>
-                                                    <li><a href="menu-one-page.html">One Page Menu</a></li>
-                                                    <li><a href="menu-hover-background.html">Hover Background</a></li>
-                                                    <li><a href="menu-button.html">Button Version</a></li>
-                                                    <li><a href="menu-social-icons.html">Social Icons Version</a></li>
-                                                    <li><a href="menu-onclick.html">OnClick Open</a></li>
-                                                    <li><a href="menu-rounded-dropdown.html">Rounded Dropdown</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Page Title</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-title.html">Default</a></li>
-                                                    <li><a href="page-title-image.html">Image background</a></li>
-                                                    <li><a href="page-title-video.html">Video background</a></li>
-                                                    <li><a href="page-title-pattern.html">Pattern background</a></li>
-                                                    <li><a href="page-title-background-color.html">Colored background</a></li>
-                                                    <li><a href="page-title-parallax.html">Parallax</a></li>
-                                                    <li><a href="page-title-animated.html">Animated</a></li>
-                                                    <li><a href="page-title-right.html">Right Aligned</a></li>
-                                                    <li><a href="page-title-left.html">Left Aligned</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Page Menu<span class="badge badge-danger">NEW</span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-menu.html">Default</a></li>
-                                                    <li><a href="page-menu-rounded.html">Rounded</a></li>
-                                                    <li><a href="page-menu-outline.html">Outline</a></li>
-                                                    <li><a href="page-menu-lines.html">Lines</a></li>
-                                                    <li><a href="page-menu-solid.html">Solid</a></li>
-                                                    <li><a href="page-menu-light.html">Light</a></li>
-                                                    <li><a href="page-menu-dark.html">Dark</a></li>
-                                                    <li><a href="page-menu-creative.html">Creative</a></li>
-                                                    <li><a href="page-menu.html">Dropdown</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Sidebars</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="sidebar-sticky.html">Sticky version</a></li>
-                                                    <li><a href="sidebar.html">Left aligned</a></li>
-                                                    <li><a href="sidebar-right.html">Right aligned</a></li>
-                                                    <li><a href="sidebar-both.html">Both Sidebars</a></li>
-                                                    <li><a href="sidebar-modern.html">Modern</a></li>
-                                                    <li><a href="sidebar-modern-right.html">Modern Right</a></li>
-                                                    <li><a href="sidebar-modern-both.html">Modern Both Sidebars</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Footers</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="footer.html#footer">Default</a></li>
-                                                    <li><a href="footer-dark.html#footer">Dark</a></li>
-                                                    <li><a href="footer-1.html#footer">Footer 1</a></li>
-                                                    <li><a href="footer-2.html#footer">Footer 2</a></li>
-                                                    <li><a href="footer-3.html#footer">Footer 3</a></li>
-                                                    <li><a href="footer-4.html#footer">Footer 4</a></li>
-                                                    <li><a href="footer-5.html#footer">Footer 5</a></li>
-                                                    <li><a href="footer-6.html#footer">Footer 6</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Options</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="layout-boxed.html">Boxed</a></li>
-                                                    <li><a href="layout-modern.html">Modern</a></li>
-                                                    <li><a href="layout-frame.html">Frame</a></li>
-                                                    <li><a href="layout-wide.html">Wide (default)</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Features</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">Sliders</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="slider-revolution-slider.html">Revolution Slider</a></li>
-                                                    <li><a href="slider-inspiro-slider.html">Inspiro Slider</a></li>
-                                                    <li><a href="slider-static-media-image.html">Fullscreen Image</a></li>
-                                                    <li><a href="slider-static-media-parallax.html">Fullscreen Parallax</a></li>
-                                                    <li><a href="slider-static-media-text-rotator.html">Fullscreen Text Rotator</a></li>
-                                                    <li><a href="slider-static-media-video.html">Fullscreen HTML5 Video</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="widgets.html">Widgets</a></li>
-                                            <li><a href="page-loaders.html">Page Loaders<span class="badge badge-danger">NEW</span></a></li>
-                                            <li class="dropdown-submenu"><a href="#">Modal Auto Open<span class="badge badge-danger">NEW</span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="modal-auto-open-subscription.html">Subscription</a></li>
-                                                    <li><a href="modal-auto-open-shop.html">Shop Promotion</a></li>
-                                                    <li><a href="modal-auto-open-login.html">Login Form</a></li>
-                                                    <li><a href="modal-auto-open-audio.html">Audio Player</a></li>
-                                                    <li><a href="modal-auto-open-video.html">HTML5 Video</a></li>
-                                                    <li><a href="modal-auto-open-youtube.html">YouTube Video</a></li>
-                                                    <li><a href="modal-auto-open-vimeo.html">Vimeo Video</a></li>
-                                                    <li><a href="modal-auto-open-iframe.html">Iframe</a></li>
-                                                    <li><a href="modal-auto-open.html">Sample Text</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Cookie Notify<span class="badge badge-danger">NEW</span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="cookie-notify.html">Top position</a></li>
-                                                    <li><a href="cookie-notify-bottom.html">Bottom position</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="shape-dividers.html">Shape Dividers<span class="badge badge-danger">NEW</span></a></li>
-                                            <li class="dropdown-submenu"><a href="#">Menu Labels</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">Label (new)<span class="badge badge-danger">NEW</span></a></li>
-                                                    <li><a href="#">Label (hot)<span class="badge badge-danger">HOT</span></a></li>
-                                                    <li><a href="#">Label (popular)<span class="badge badge-success">POPULAR</span></a></li>
-                                                    <li><a href="#">Label (sale)<span class="badge badge-warning">SALE</span></a></li>
-                                                    <li><a href="#">Label (info)<span class="badge badge-info">INFO</span></a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown mega-menu-item"><a href="#">Elements</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="mega-menu-content">
-                                                <div class="row">
-                                                    <div class="col-lg-2">
-                                                        <ul>
-                                                            <li><a href="shortcode-according.html">Accordions</a></li>
-                                                            <li><a href="shortcode-alerts.html">Alerts</a></li>
-                                                            <li><a href="shortcode-animations.html">Animations</a></li>
-                                                            <li><a href="shortcode-avatar.html">Avatar</a></li>
-                                                            <li><a href="shortcode-audio-video.html">Audio & Video</a></li>
-                                                            <li><a href="shortcode-blockquotes.html">Blockquotes</a></li>
-                                                            <li><a href="component-bootstrap-switch.html">BS Switch<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="component-bootstrap-notify.html">BS Notify<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-breadcrumbs.html">Breadcrumbs</a></li>
-                                                            <li><a href="shortcode-buttons.html">Buttons</a></li>
-                                                            <li><a href="shortcode-background-image.html">Background Image</a></li>
-                                                            <li><a href="shortcode-background-overlays.html">Background Overlays</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <ul>
-                                                            <li><a href="component-charts-chartjs.html">Charts<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="component-calendar.html">Calendar<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-client-logo.html">Clients logos</a></li>
-                                                            <li><a href="shortcode-calltoaction.html">Call to action</a></li>
-                                                            <li><a href="shortcode-carousel.html">Carousel</a></li>
-                                                            <li><a href="shortcode-code.html">Code</a></li>
-                                                            <li><a href="shortcode-countdown-timer.html">Countdown Timers</a></li>
-                                                            <li><a href="shortcode-countdown.html">Countdown<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-counters.html">Counter Numbers</a></li>
-                                                            <li><a href="component-clipboard.html">Clipboard<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="component-datatable.html">Data Tables<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="component-daterangepicker.html">Date & Time Pickers</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <ul>
-                                                            <li><a href="shortcode-dropcat-highlight.html">Dropcat & Highlight</a></li>
-                                                            <li><a href="shortcode-dropdowns.html">Dropdowns</a></li>
-                                                            <li><a href="shortcode-team-members.html">Team members</a></li>
-                                                            <li><a href="shortcode-forms.html">Form Controls</a></li>
-                                                            <li><a href="shortcode-form-validation.html">Form Validation</a></li>
-                                                            <li><a href="shortcode-form-layouts.html">Form Layouts</a></li>
-                                                            <li><a href="shortcode-file-upload.html">File upload</a></li>
-                                                            <li><a href="shortcode-grid.html">Grid System</a></li>
-                                                            <li><a href="shortcode-heading-styles.html">Heading Styles</a></li>
-                                                            <li><a href="shortcode-icon-boxes.html">Icon Boxes</a></li>
-                                                            <li><a href="shortcode-icon-lists.html">Icons</a></li>
-                                                            <li><a href="shortcode-images.html">Images</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <ul>
-                                                            <li><a href="shortcode-lightbox.html">Lightbox</a></li>
-                                                            <li><a href="shortcode-lists.html">Lists</a></li>
-                                                            <li><a href="shortcode-labels-badgets.html">Labels & Badges</a></li>
-                                                            <li><a href="shortcode-maps.html">Maps</a></li>
-                                                            <li><a href="shortcode-modal.html">Modal</a></li>
-                                                            <li><a href="shortcode-modal-strip.html">Modal Strip</a></li>
-                                                            <li><a href="shortcode-navs.html">Navbar & Navs</a></li>
-                                                            <li><a href="shortcode-paginations.html">Pagination & Pager</a></li>
-                                                            <li><a href="shortcode-panels.html">Panels</a></li>
-                                                            <li><a href="shortcode-pie-chart.html">Pie charts</a></li>
-                                                            <li><a href="shortcode-popover.html">Popover</a></li>
-                                                            <li><a href="shortcode-milestone-stats.html">Milestone & Stats</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <ul>
-                                                            <li><a href="shortcode-pricing-table.html">Pricing tables</a></li>
-                                                            <li><a href="shortcode-progress-bar.html">Progress bars</a></li>
-                                                            <li><a href="shortcode-parallax.html">Parallax</a></li>
-                                                            <li><a href="shortcode-particles.html">Particles<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-responsive-utilities.html">Responsive utilities</a></li>
-                                                            <li><a href="component-ion-range-slider.html">Range Slider<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-sections.html">Sections</a></li>
-                                                            <li><a href="shortcode-smooth-scrolling.html">Smooth Scrolling</a></li>
-                                                            <li><a href="shortcode-social-icons.html">Social Icons</a></li>
-                                                            <li><a href="shortcode-spinners.html">Spinners<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="component-toggles-radio-checkboxes.html">Switch Toggle<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-shape-dividers.html">Shape Dividers<span class="badge badge-danger">NEW</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <ul>
-                                                            <li><a href="shortcode-ratings.html">Ratings<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-tables.html">Tables</a></li>
-                                                            <li><a href="shortcode-textbox.html">Text Boxes</a></li>
-                                                            <li><a href="shortcode-tabs.html">Tabs</a></li>
-                                                            <li><a href="shortcode-testimonial.html">Testimonials</a></li>
-                                                            <li><a href="shortcode-toggles.html">Toggles</a></li>
-                                                            <li><a href="shortcode-tooltips.html">Tooltips</a></li>
-                                                            <li><a href="shortcode-typography.html">Typography</a></li>
-                                                            <li><a href="shortcode-text-rotator.html">Text Rotator</a></li>
-                                                            <li><a href="shortcode-timeline.html">Timeline<span class="badge badge-danger">NEW</span></a></li>
-                                                            <li><a href="shortcode-video-background.html">Video Background</a></li>
-                                                            <li><a href="shortcode-wizard.html">Wizard<span class="badge badge-danger">NEW</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><span class="dropdown-menu-title-only">About us</span>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-about-basic.html">Basic</a></li>
-                                                    <li><a href="page-about-extended.html">Extended</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><span class="dropdown-menu-title-only">About me</span>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-about-me-creative.html">Creative<span class="badge badge-danger">NEW</span></a></li>
-                                                    <li><a href="page-about-me-basic.html">Basic</a></li>
-                                                    <li><a href="page-about-me-extended.html">Extended</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><span class="dropdown-menu-title-only">Contact us</span>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-contact-classic.html">Classic</a></li>
-                                                    <li><a href="page-contact-fullwidth-map.html">Fullwidth Map</a></li>
-                                                    <li><a href="page-contact-fullscreen-map.html">Fullscreen Map</a></li>
-                                                    <li><a href="page-contact-map-bottom.html">Map bottom</a></li>
-                                                    <li><a href="page-contact-sidebar-left.html">Sidebar Left</a></li>
-                                                    <li><a href="page-contact-sidebar-right.html">Sidebar Right</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><span class="dropdown-menu-title-only">Gallery</span>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-gallery-2.html">Two Columns</a></li>
-                                                    <li><a href="page-gallery-3.html">Three Columns</a></li>
-                                                    <li><a href="page-gallery-4.html">Four Columns</a></li>
-                                                    <li><a href="page-gallery-5.html">Five Columns</a></li>
-                                                    <li><a href="page-gallery-6.html">Six Columns</a></li>
-                                                    <li><a href="page-gallery-sidebar.html">Sidebar version</a></li>
-                                                    <li><a href="page-gallery-wide.html">Wide version</a></li>
-                                                    <li><a href="page-gallery-load-more.html">Load more</a></li>
-                                                    <li><a href="page-gallery-infinite-scroll.html">Infinity Scroll</a></li>
-                                                    <!--<li><a href="page-gallery-gallery-albums.html">Gallery Albums</a></li>-->
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><span class="dropdown-menu-title-only">User pages</span>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-user-login.html">Login</a></li>
-                                                    <li><a href="page-user-login-classic.html">Login - Classic</a></li>
-                                                    <li><a href="page-user-register.html">Register</a></li>
-                                                    <li><a href="page-user-register-classic.html">Register - Classic</a></li>
-                                                    <li><a href="page-user-password-recovery.html">Recovery Password</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="page-services.html">Services</a></li>
-                                            <li><a href="page-our-team.html">Our team</a></li>
-                                            <li><a href="page-our-clients.html">Our clients</a></li>
-                                            <li><a href="page-maintenance.html">Maintenance</a></li>
-                                            <li><a href="page-404.html">404 Page</a></li>
-                                            <li><a href="page-404-parallax.html">404 Page - Parallax</a></li>
-                                            <li><a href="page-500.html">500 Page</a></li>
-                                            <li><a href="page-fullwidth.html">Fullwidth page</a></li>
-                                            <li><a href="page-fullwidth-wide.html">Fullwidth page - Wide</a></li>
-                                            <li class="dropdown-submenu"><span class="dropdown-menu-title-only">Page with Sidebar</span>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="page-sidebar.html">Sidebar Left</a></li>
-                                                    <li><a href="page-sidebar-right.html">Sidebar Right</a></li>
-                                                    <li><a href="page-sidebar-both.html">Sidebar Both</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="page-site-map.html">Site Map</a></li>
-                                            <li><a href="page-faq.html">FAQ</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown mega-menu-item"><a href="#">Portfolio</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="mega-menu-content">
-                                                <div class="row">
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Grids</li>
-                                                            <li><a href="portfolio-2.html">Two Columns</a></li>
-                                                            <li><a href="portfolio-3.html">Three Columns</a></li>
-                                                            <li><a href="portfolio-4.html">Four Columns</a></li>
-                                                            <li><a href="portfolio-5.html">Five Columns</a></li>
-                                                            <li><a href="portfolio-6.html">Six Columns</a></li>
-                                                            <li><a href="portfolio-sidebar.html">Sidebar version</a></li>
-                                                            <li><a href="portfolio-wide-3.html">Wide version</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Masonry</li>
-                                                            <li><a href="portfolio-masonry-2.html">Two Columns</a></li>
-                                                            <li><a href="portfolio-masonry-3.html">Three Columns<span class="badge badge-danger">HOT</span></a></li>
-                                                            <li><a href="portfolio-masonry-4.html">Four Columns</a></li>
-                                                            <li><a href="portfolio-masonry-5.html">Five Columns</a></li>
-                                                            <li><a href="portfolio-masonry-6.html">Six Columns</a></li>
-                                                            <li><a href="portfolio-masonry-sidebar.html">Sidebar version</a></li>
-                                                            <li><a href="portfolio-masonry-wide-3.html">Wide version</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Styles</li>
-                                                            <li><a href="portfolio-filter-styles.html">Filter Styles</a></li>
-                                                            <li><a href="portfolio-load-more.html">Load more</a></li>
-                                                            <li><a href="portfolio-load-more-sidebar.html">Load more - Sidebar</a></li>
-                                                            <li><a href="portfolio-infinite-scroll.html">Infinity Scroll</a></li>
-                                                            <li><a href="portfolio-ajax.html">Portfolio Ajax</a></li>
-                                                            <li><a href="portfolio-gallery-modal.html">Gallery Modal</a></li>
-                                                            <li><a href="portfolio-video-modal.html">Video Modal</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Layouts</li>
-                                                            <li><a href="portfolio-sidebar-left.html">Left Sidebar</a></li>
-                                                            <li><a href="portfolio-sidebar-right.html">Right Sidebar</a></li>
-                                                            <li><a href="portfolio-sidebar-both.html">Both Sidebars</a></li>
-                                                            <li><a href="portfolio-slider-3.html">Slider Default</a></li>
-                                                            <li><a href="portfolio-no-page-title.html">No Page Title</a></li>
-                                                            <li><a href="portfolio-no-page-title-sidebar.html">No Page Title - Sidebar</a></li>
-                                                            <li><a href="portfolio-hover-styles.html">Hover Styles</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Single Project</li>
-                                                            <li><a href="portfolio-page-grid-gallery.html">Grid Gallery</a></li>
-                                                            <li><a href="portfolio-page-particles.html">Particles Wide Project</a></li>
-                                                            <li><a href="portfolio-page-floating-sidebar.html">Floating Sidebar</a></li>
-                                                            <li><a href="portfolio-page-slider.html">Slider version</a></li>
-                                                            <li><a href="portfolio-page-background-image.html">Fullscreen image</a></li>
-                                                            <li><a href="portfolio-page-background-video.html">Fullscreen Video</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-12 no-padding">
-                                                        <div class="d-none d-lg-block m-t-40 m-b-10">
-                                                            <div class="container">
-                                                                <div class="row">
-                                                                    <div class="col-lg-9 m-t-10">
-                                                                        <div class="text-center center">
-                                                                            <div class="heading-creative"><strong>20+</strong> Amazing Hover Styles</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3"><a href="portfolio-hover-styles.html" class="btn m-l-20 btn-light btn-shadow btn-light-hover btn-light-hover">View All Hover Styles</a></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <ul class="d-block d-lg-none">
-                                                            <li><a class="mega-menu-title" href="portfolio-hover-styles.html">20+ Amazing Hover Styles</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown mega-menu-item"><a href="#">Blog</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="mega-menu-content">
-                                                <div class="row">
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Masonry</li>
-                                                            <li><a href="blog-masonry-2.html">Two Columns</a></li>
-                                                            <li><a href="blog-masonry-3.html">Three Columns<span class="badge badge-danger">HOT</span></a></li>
-                                                            <li><a href="blog-masonry-4.html">Four Columns</a></li>
-                                                            <li><a href="blog-masonry-sidebar.html">Sidebar version</a></li>
-                                                            <li><a href="blog-masonry-no-page-title.html">No page title</a></li>
-                                                            <li><a href="blog-masonry-wide.html">Wide version</a></li>
-                                                            <li><a href="blog-masonry-load-more.html">Load More</a></li>
-                                                            <li><a href="blog-masonry-infinite-scroll.html">Infinite Scroll</a></li>
-                                                            <li><a href="blog-masonry-filter.html">Filter Categories</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Grids Layout</li>
-                                                            <li><a href="blog-1.html">One Column</a></li>
-                                                            <li><a href="blog-2.html">Two Columns</a></li>
-                                                            <li><a href="blog-3.html">Three Columns</a></li>
-                                                            <li><a href="blog-4.html">Four Columns</a></li>
-                                                            <li><a href="blog-no-page-title.html">No page title</a></li>
-                                                            <li><a href="blog-wide.html">Wide version</a></li>
-                                                            <li><a href="blog-load-more.html">Load More</a></li>
-                                                            <li><a href="blog-infinite-scroll.html">Infinite Scroll</a></li>
-                                                            <li><a href="blog-filter.html">Filter Categories</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Left Image</li>
-                                                            <li><a href="blog-left-image-sidebar-right.html">Right Sidebar</a></li>
-                                                            <li><a href="blog-left-image-sidebar-left.html">Left Sidebar</a></li>
-                                                            <li><a href="blog-left-image-sidebar-both.html">Both Sidebars</a></li>
-                                                            <li><a href="blog-left-image-no-sidebar.html">No Sidebar</a></li>
-                                                            <li><a href="blog-left-image-no-page-title.html">No page title</a></li>
-                                                            <li><a href="blog-left-image-load-more.html">Load More</a></li>
-                                                            <li><a href="blog-left-image-infinite-scroll.html">Infinite Scroll</a></li>
-                                                            <li><a href="blog-left-image-author-info.html">Author Info</a></li>
-                                                            <li><a href="blog-left-image-filter.html">Filter Categories</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Layouts</li>
-                                                            <li><a href="blog-sidebar-left.html">Left Sidebar</a></li>
-                                                            <li><a href="blog-sidebar-right.html">Right Sidebar</a></li>
-                                                            <li><a href="blog-sidebar-both.html">Both Sidebars</a></li>
-                                                            <li><a href="blog-fullwidth.html">Fullwidth</a></li>
-                                                            <li class="mega-menu-title">Post Item Styles</li>
-                                                            <li><a href="blog-style-shadow.html">Shadow</a></li>
-                                                            <li><a href="blog-style-textual.html">Textual</a></li>
-                                                            <li><a href="blog-style-grey-bg.html">Grey Background</a></li>
-                                                            <li><a href="blog-style-author-info.html">Author Info</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Single Post</li>
-                                                            <li><a href="blog-single.html">Default</a></li>
-                                                            <li><a href="blog-single-slider.html">Slider</a></li>
-                                                            <li><a href="blog-single-video.html">Video</a></li>
-                                                            <li><a href="blog-single-audio.html">Audio</a></li>
-                                                            <li><a href="blog-single-creative.html">Creative</a></li>
-                                                            <li class="mega-menu-title">Comments<span class="badge badge-danger">NEW</span></li>
-                                                            <li><a href="blog-comments.html#comments">Default Comments</a></li>
-                                                            <li><a href="blog-comments-disqus.html#comments">Disqus Comments</a></li>
-                                                            <li><a href="blog-comments-facebook.html#comments">Facebook Comments</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown mega-menu-item"><a href="#">Shop</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="mega-menu-content">
-                                                <div class="row">
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Columns</li>
-                                                            <li><a href="shop-columns-2.html">Two Columns</a></li>
-                                                            <li><a href="shop-columns-3.html">Three Columns</a></li>
-                                                            <li><a href="shop-columns-4.html">Four Columns</a></li>
-                                                            <li><a href="shop-columns-5.html">Five Columns</a></li>
-                                                            <li><a href="shop-columns-6.html">Six Columns</a></li>
-                                                            <li><a href="shop-sidebar-sticky.html">Sidebar Sticky</a></li>
-                                                            <li><a href="shop-wide.html">Wide version</a></li>
-                                                            <li><a href="shop-no-page-title.html">No page title</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Layouts</li>
-                                                            <li><a href="shop-sidebar-left.html">Left Sidebar</a></li>
-                                                            <li><a href="shop-sidebar-right.html">Right Sidebar</a></li>
-                                                            <li><a href="shop-sidebar-both.html">Both Sidebars</a></li>
-                                                            <li><a href="shop-fullwidth.html">Fullwidth (Wide)</a></li>
-                                                            <li class="mega-menu-title">Loading Styles</li>
-                                                            <li><a href="shop-load-more.html">Load more</a><a href="shop-load-more-sidebar.html">Load Sidebar</a></li>
-                                                            <li><a href="shop-infinite-scroll.html">Infinity Scroll</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Order process</li>
-                                                            <li><a class="animsition-link" href="shop-cart.html">Shoping Cart</a></li>
-                                                            <li><a class="animsition-link" href="shop-cart-empty.html">Shoping Cart - Empty</a></li>
-                                                            <li><a class="animsition-link" href="shop-checkout.html">Checkout</a></li>
-                                                            <li><a class="animsition-link" href="shop-checkout-completed.html">Checkout Completed</a></li>
-                                                            <li><a href="shop-wishlist.html">Wishlist</a></li>
-                                                            <li><a href="shop-wishlist-empty.html">Wishlist Empty</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5">
-                                                        <ul>
-                                                            <li class="mega-menu-title">Single Product</li>
-                                                            <li><a href="shop-single-product.html">Fullwidth</a></li>
-                                                            <li><a href="shop-single-product-sidebar-left.html">Left Sidebar</a></li>
-                                                            <li><a href="shop-single-product-sidebar-right.html">Right Sidebar</a></li>
-                                                            <li><a href="shop-single-product-sidebar-both.html">Both Sidebars</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-2-5 p-l-0">
-                                                        <h4 class="text-theme">BIG SALE<small>Up to</small></h4>
-                                                        <h2 class="text-lg text-theme lh80 m-b-30">70%</h2>
-                                                        <p class="m-b-0">The most happiest time of the day!. Morbi sagittis, sem quis ipsum dolor sit amet lacinia faucibus.</p><a class="btn btn-shadow btn-rounded btn-block m-t-10">SHOP NOW!</a><small class="t300">
-                                                            <p class="text-center m-0"><em>* Limited time Offer</em></p>
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
+                    <div class="col-auto ms-auto ps-lg-0 d-none d-sm-flex"> 
+                        <div class="d-none d-xl-flex me-25px">
+                            <div class="d-flex align-items-center widget-text fw-600 alt-font"><a href="tel:1234567890" class="d-inline-block"><span class="d-inline-block align-middle me-10px bg-base-color-transparent h-45px w-45px text-center rounded-circle fs-16 lh-46 text-base-color"><i class="feather icon-feather-phone-outgoing"></i></span><span class="d-none d-xxl-inline-block">123-456-7890</span></a></div>
+                        </div>
+                        <div class="header-icon">
+                            <div class="header-button">
+                                <a href="demo-real-estate-sell.html" class="btn btn-base-color btn-small btn-round-edge btn-hover-animation-switch">
+                                    <span> 
+                                        <span class="btn-text">Buy property</span> 
+                                        <span class="btn-icon"><i class="feather icon-feather-arrow-right icon-very-small"></i></span>
+                                        <span class="btn-icon"><i class="feather icon-feather-arrow-right icon-very-small"></i></span>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <!--end: Navigation-->
                 </div>
-            </div>
+            </nav>
+            <!-- end navigation -->
         </header>
-        <!-- end: Header -->
-
-        <!-- Inspiro Slider -->
-        <div id="slider" class="inspiro-slider dots-creative" data-height-xs="360" data-autoplay="2600" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1" data-loop="true" data-autoplay="true">
-            <!-- Slide 1 -->
-            <div class="slide" data-bg-image="./assets/images/1.png">
-                <div class="bg-overlay"></div>
+        <!-- end header -->
+        <!-- start banner slider -->
+        <section class="p-0 top-space-margin">
+            <div class="swiper full-screen md-h-600px sm-h-500px swiper-number-pagination-style-01 magic-cursor drag-cursor" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 4000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }' data-number-pagination="1">
+                <div class="swiper-wrapper">
+                    <!-- start slider item -->
+                    <div class="swiper-slide cover-background" style="background-image:url('./assets/images/slider/1.jpg');"> 
+                        <div class="container h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-12 position-relative text-white" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <span class="fs-20 d-block mb-15px">Exceptional cleaning for your home or office</span>
+                                    <div class="alt-font fs-110 lg-fs-90 lh-90 lg-lh-80 mb-45px sm-mb-25px w-80 xs-w-100 ls-minus-2px">Trusted <span class="fw-700">Quality</span></div>  
+                                    <a href="demo-real-estate-contact.html" class="btn btn-white btn-large border-1 btn-round-edge btn-box-shadow me-15px xs-mt-10px xs-mb-10px">Book now</a>
+                                    <a href="demo-real-estate-property-details.html" class="btn btn-transparent-white-light border-1 btn-large btn-round-edge fw-500 xs-mt-10px xs-mb-10px">Learn more</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- end slider item -->
+                    <!-- start slider item -->
+                    <div class="swiper-slide cover-background" style="background-image:url('./assets/images/slider/2.jpg');"> 
+                        <div class="container h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-12 position-relative text-white" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <span class="fs-20 d-block mb-15px">Your home, perfectly maintained</span>
+                                    <div class="alt-font fs-110 lg-fs-90 lh-90 lg-lh-80 mb-45px sm-mb-25px w-80 xs-w-100 ls-minus-2px">Elegant <span class="fw-700">Living</span></div>  
+                                    <a href="demo-real-estate-contact.html" class="btn btn-white btn-large border-1 btn-round-edge btn-box-shadow me-15px xs-mt-10px xs-mb-10px">Book now</a>
+                                    <a href="demo-real-estate-property-details.html" class="btn btn-transparent-white-light border-1 btn-large btn-round-edge fw-500 xs-mt-10px xs-mb-10px">Learn more</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- end slider item -->
+                    <!-- start slider item -->
+                    <div class="swiper-slide cover-background" style="background-image:url('./assets/images/slider/3.jpg');"> 
+                        <div class="container h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-md-12 position-relative text-white" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <span class="fs-20 d-block mb-15px">Creating clean, welcoming environments</span>
+                                    <div class="alt-font fs-110 lg-fs-90 lh-90 lg-lh-80 mb-45px sm-mb-25px w-70 xs-w-100 ls-minus-2px">Pristine <span class="fw-700">Spaces</span></div>  
+                                    <a href="demo-real-estate-contact.html" class="btn btn-white btn-large border-1 btn-round-edge btn-box-shadow me-15px xs-mt-10px xs-mb-10px">Book now</a>
+                                    <a href="demo-real-estate-property-details.html" class="btn btn-transparent-white-light border-1 btn-large btn-round-edge fw-500 xs-mt-10px xs-mb-10px">Learn more</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- end slider item -->
+                </div>
+                <!-- start slider pagination --> 
                 <div class="container">
-                    <div class="slide-captions">
-                        <!-- Captions -->
-                        <h2 class="text-medium no-margin">5 star Hotel</h2>
-                        <h2 class="text-lg no-margin">Wonderful Feelings</h2>
-                        <!-- end: Captions -->
+                    <div class="row g-0">
+                        <div class="col-12 position-relative">
+                            <!-- start slider pagination --> 
+                            <div class="swiper-pagination left-0 text-start swiper-pagination-clickable swiper-number fs-14 alt-font ls-05px"></div>  
+                            <!-- end slider pagination -->
+                        </div>
                     </div>
                 </div>
+                <!-- end slider pagination -->
+                <!-- start slider navigation -->
+                <!-- <div class="slider-one-slide-prev-1 icon-very-small text-white swiper-button-prev slider-navigation-style-06"><i class="line-icon-Arrow-OutLeft icon-extra-large"></i></div>
+                <div class="slider-one-slide-next-1 icon-very-small text-white swiper-button-next slider-navigation-style-06"><i class="line-icon-Arrow-OutRight icon-extra-large"></i></div> -->
+                <!-- end slider navigation --> 
             </div>
-            <!-- end: Slide 1 -->
-            <!-- Slide 2 -->
-            <div class="slide" data-bg-image="./assets/images/2.jpg">
-                <div class="bg-overlay"></div>
-                <div class="container">
-                    <div class="slide-captions">
-                        <!-- Captions -->
-                        <h2 class="text-medium no-margin text-colored">Enjoy</h2>
-                        <h2 class="text-lg no-margin">Wonderful Feelings</h2>
-                        <!-- end: Captions -->
-                    </div>
-                </div>
-            </div>
-            <!-- end: Slide 2 -->
-        </div>
-        <!--end: Inspiro Slider -->
-
-        <!-- RESERVATION FORM -->
-        <section class="reservation-form-over no-padding">
-            <div class="container">
-                <form action="#" method="post">
-                    <div class="row justify-content-center reservation-form">
-
-
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label>Check in</label>
-                                <div class="input-group">
-                                    <input name="fromDate" class="form-control" type="text">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="form-group">
-                                <label>Check out</label>
-                                <div class="input-group">
-                                    <input name="fromDate" class="form-control" type="text">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-1">
-                            <div class="form-group">
-                                <label>Adults</label>
-                                <input type="number" placeholder="2" name="adults" value="" max="10" min="1">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-1">
-                            <div class="form-group">
-                                <label>Children</label>
-                                <input type="number" placeholder="0" name="children" value="" max="10" min="1">
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="form-group mt-2">
-                                <button class="btn mt-4">Check Avaliability</button>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </form>
-
-
-
-
-
-
-
-
-
-            </div>
-
         </section>
-        <!-- end: RESERVATION FORM -->
+        <!-- end banner slider --> 
 
-         <!-- Footer -->
-         <footer id="footer" class="inverted">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="row gap-y">
-                        <div class="col-md-6 col-xl-4">
-                            <p><a href="#"><img src="./assets/images/logo/logo.png" alt="logo"></a></p>
-                            <p>To design is to discover relationships and to make arrangements and rearrangements among these ingredients.</p>
+        <!-- start section -->
+        <section>
+            <div class="container"> 
+                <div class="row justify-content-center mb-6 md-mb-50px">                    
+                    <div class="col-lg-7 col-12 md-mb-35px last-paragraph-no-margin" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <div class="mb-10px">
+                            <span class="w-30px h-2px fs-15 d-inline-block bg-base-color me-5px align-middle"></span>
+                            <span class="text-uppercase text-base-color fs-16 fw-600 d-inline-block">PROFESSIONAL SERVICE</span>
                         </div>
-                        <div class="col-6 col-md-3 col-xl-2">
-                            <!-- Footer widget area 1 -->
-                            <div class="widget">
-                                <h4>PROJECT</h4>
-                                <ul class="list">
-                                    <li><a href="#">Latest Release</a></li>
-                                    <li><a href="#">Updates</a></li>
-                                    <li><a href="#">License</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Links</a></li>
-                                </ul>
+                        <h2 class="text-dark-gray fw-700 ls-minus-2px">Cleaning Service at Your Door</h2>
+                        <p class="w-85 lg-w-100">Experience hassle-free cleaning right at your doorstep. Our professional team delivers top-tier services customized to your needs, whether it’s your home, office, or commercial space. With flexible scheduling and reliable staff, we bring cleanliness and convenience directly to you, ensuring spotless results every time.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 offset-xl-1 col-12">
+                        <div class="border-radius-10px overflow-hidden" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <div class="p-30px bg-dark text-center">
+                                <span class="fs-24 ls-minus-05px fw-600 text-light">Since 2010, our happy customers have avoided.</span>
                             </div>
-                            <!-- end: Footer widget area 1 -->
+                            <div class="feature-box feature-box-left-icon-middle bg-base-color p-8 overflow-hidden last-paragraph-no-margin">
+                                <div class="feature-box-icon me-15px">
+                                    <img src="images/demo-green-energy-home-icon-01.png" alt="">
+                                </div>
+                                <div class="feature-box-content">
+                                    <span class="d-inline-block fs-45 xl-fs-30 lg-fs-24 text-white fw-700 ls-minus-2px">612,845,31+</span>
+                                    <p class="text-white fs-18">Pounds of CO2.</p>
+                                </div>
+                            </div>  
                         </div>
-                        <div class="col-6 col-md-3 col-xl-2">
-                            <!-- Footer widget area 2 -->
-                            <div class="widget">
-                                <h4>SUPPORT</h4>
-                                <ul class="list">
-                                    <li><a href="#">Troubleshooting</a></li>
-                                    <li><a href="#">Common Questions</a></li>
-                                    <li><a href="#">Report a Bug</a></li>
-                                    <li><a href="#">Get Help</a></li>
-                                    <li><a href="#">FAQS</a></li>
-                                </ul>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center mb-6 sm-mb-50px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <!-- start features box item -->
+                    <div class="col custom-icon-with-text-style-02 border-end xs-border-end-0 md-mb-30px">
+                        <div class="feature-box last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <img class="custom-image-icon mb-30px" src="images/demo-green-energy-home-icon-02.png" alt="" />
                             </div>
-                            <!-- end: Footer widget area 2 -->
+                            <div class="feature-box-content">
+                                <span class="d-block fs-20 fw-600 text-dark-gray mb-10px">Quality Service</span>
+                                <p class="w-80 xl-w-100 mx-auto">Our team delivers meticulous attention and prioritizes your satisfaction. We ensure a clean and comfortable space tailored to your needs.</p>
+                            </div>
                         </div>
-                        <div class="col-6 col-md-6 col-xl-2">
-                            <!-- Footer widget area 3 -->
-                            <div class="widget">
-                                <h4>COMPANY</h4>
-                                <ul class="list">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                </ul>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col custom-icon-with-text-style-02 border-end md-border-end-0 md-mb-30px">
+                        <div class="feature-box last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <img class="custom-image-icon mb-30px" src="images/demo-green-energy-home-icon-03.png" alt="" />
                             </div>
-                            <!-- end: Footer widget area 3 -->
+                            <div class="feature-box-content">
+                                <span class="d-block fs-20 fw-600 text-dark-gray mb-10px">Expert Team</span>
+                                <p class="w-80 xl-w-100 mx-auto">Our seasoned professionals are highly trained, bringing years of expertise to keep your space spotless.</p>
+                            </div>
                         </div>
-                        <div class="col-6 col-md-6 col-xl-2">
-                            <p><a class="btn btn-block" href="#">Download Now</a></p>
-                            <br>
-                            <!-- Social icons -->
-                            <h5>FOLLOW US</h5>
-                            <div class="social-icons social-icons-colored social-icons-rounded float-left">
-                                <ul>
-                                    <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
-                                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                </ul>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col custom-icon-with-text-style-02 border-end xs-border-end-0 xs-mb-30px">
+                        <div class="feature-box last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <img class="custom-image-icon mb-30px" src="images/demo-green-energy-home-icon-04.png" alt="" />
                             </div>
-                            <!-- end: Social icons -->
+                            <div class="feature-box-content">
+                                <span class="d-block fs-20 fw-600 text-dark-gray mb-10px">Latest Equipments</span>
+                                <p class="w-80 xl-w-100 mx-auto">Using cutting-edge tools, we provide precision cleaning that meets the highest standards of care.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col custom-icon-with-text-style-02">
+                        <div class="feature-box last-paragraph-no-margin">
+                            <div class="feature-box-icon">
+                                <img class="custom-image-icon mb-30px" src="images/demo-green-energy-home-icon-05.png" alt="" />
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="d-block fs-20 fw-600 text-dark-gray mb-10px">Affordable Price</span>
+                                <p class="w-80 xl-w-100 mx-auto">Enjoy premium cleaning at competitive rates. Get exceptional results without breaking the bank with AL THABITAH.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                </div>
+                <div class="row justify-content-center g-0" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <div class="col-auto pt-15px pb-15px ps-40px pe-40px md-ps-25px md-pe-25px bg-base-color border-radius-100px">
+                        <div class="feature-box feature-box-left-icon-middle">
+                            <div class="feature-box-icon me-10px">
+                                <img src="images/demo-green-energy-home-icon-06.png" alt="">
+                            </div>
+                            <div class="feature-box-content text-dark-gray fs-18">
+                                Experience the freedom of a spotless home. <a href='cleaning-services.html' class='text-dark fw-600'>Explore our services</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="copyright-content">
-                <div class="container">
-                    <div class="copyright-text text-center">&copy; 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="//www.inspiro-media.com" target="_blank" rel="noopener">INSPIRO</a> </div>
+        </section>
+        <!-- end section -->
+
+        <!-- start section --> 
+        <section class="p-0">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 clients-style-04 border-top sm-border-top-0" data-anime='{"opacity": [0,1], "duration": 400, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <!-- start client item -->
+                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-border-end-0 sm-border-top transition-inner-all pt-45px pb-45px sm-pt-30px sm-pb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-logistics-client-01.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-border-end-0 sm-border-top transition-inner-all pt-45px pb-45px sm-pt-30px sm-pb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-logistics-client-02.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-border-end-0 sm-border-top transition-inner-all pt-45px pb-45px sm-pt-30px sm-pb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-logistics-client-03.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-border-end-0 md-border-top transition-inner-all pt-45px pb-45px sm-pt-30px sm-pb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-logistics-client-04.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-border-end-0 md-border-top transition-inner-all pt-45px pb-45px sm-pt-30px sm-pb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-logistics-client-05.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <!-- end client item -->
+                    <!-- start client item -->
+                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-border-end-0 md-border-top transition-inner-all pt-45px pb-45px sm-pt-30px sm-pb-30px">
+                        <div class="client-box">
+                            <a href="#"><img src="images/demo-logistics-client-06.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <!-- end client item -->
                 </div>
             </div>
-        </footer>
-        <!-- end: Footer -->
-
-    </div>
-    <!-- end: Body Inner -->
-
-    <!-- Scroll top -->
-    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
-    <!--Plugins-->
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/plugins.js"></script>
-
-    <!--Template functions-->
-    <script src="./assets/js/functions.js"></script>
-
-    <!--Google Maps files-->
-    <script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBOksKHb9HyydVB-mcrqKUVfA_LeB79jcQ'>
-    </script>
-    <script type="text/javascript" src="./assets/plugins/gmap3/gmap3.min.js"></script>
-    <script type="text/javascript" src="./assets/plugins/gmap3/map-styles.js"></script>
-
-</body>
-
+        </section>
+        <!-- end section -->
+         
+        <!-- start section -->
+        <section  class="overflow-hidden bg-very-light-gray">
+            <div class="container">
+                <div class="row justify-content-center mb-3 xs-mb-2">
+                    <div class="col-lg-7 text-center" data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [0, 0], "staggervalue": 200, "easing": "easeInOutSine" }'>
+                        <span class="fs-16 lh-22 fw-700 mb-10px d-inline-block text-uppercase text-dark-gray border-bottom border-2 border-color-base-color">Professional services</span>
+                        <h2 class="text-dark-gray fw-700 mb-0 ls-minus-1px">Logistics services</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 position-relative">
+                        <div class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0" data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }'>
+                            <div class="swiper magic-cursor ps-30px pe-30px sm-ps-0 sm-pe-0" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 300000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                                <div class="swiper-wrapper pt-30px pb-30px">
+                                    <!-- start slider item --> 
+                                    <div class="swiper-slide">
+                                        <div class="row g-0 services-box-style-02"> 
+                                            <div class="col-sm-6 services-box bg-white p-10 xxl-p-8 xl-p-6 box-shadow-extra-large">
+                                                <div class="services-box-icon">
+                                                    <i class="line-icon-Plane-2 icon-double-large text-base-color mb-25px"></i>
+                                                </div>
+                                                <div class="services-box-content">
+                                                    <a href="demo-logistics-our-services.html" class="d-inline-block text-dark-gray fs-22 fw-700 mb-5px">Air freight</a>
+                                                    <p class="mb-15px">Lorem ipsum consetetur adipicing elit eiusmod tempor incididunt.</p>
+                                                    <a href="demo-logistics-our-services.html" class="btn btn-extra-large thin btn-link text-dark-gray p-0">Learn more</a>
+                                                </div> 
+                                            </div> 
+                                            <div class="col-sm-6 services-box-img xs-h-300px">
+                                                <div class="h-100 cover-background" style="background-image: url(images/demo-logistics-home-02.jpg)"></div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- end slider item -->
+                                    <!-- start slider item --> 
+                                    <div class="swiper-slide">
+                                        <div class="row g-0 services-box-style-02"> 
+                                            <div class="col-sm-6 services-box bg-white p-10 xxl-p-8 xl-p-6 box-shadow-extra-large">
+                                                <div class="services-box-icon">
+                                                    <i class="line-icon-Ship-2 icon-double-large text-base-color mb-25px"></i>
+                                                </div>
+                                                <div class="services-box-content">
+                                                    <a href="demo-logistics-our-services.html" class="d-inline-block text-dark-gray fs-22 fw-700 mb-5px">Ocean freight</a>
+                                                    <p class="mb-15px">Lorem ipsum consetetur adipicing elit eiusmod tempor incididunt.</p>
+                                                    <a href="demo-logistics-our-services.html" class="btn btn-extra-large thin btn-link text-dark-gray p-0">Learn more</a>
+                                                </div> 
+                                            </div> 
+                                            <div class="col-sm-6 services-box-img xs-h-300px">
+                                                <div class="h-100 cover-background" style="background-image: url(images/demo-logistics-home-03.jpg)"></div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- end slider item -->
+                                    <!-- start slider item --> 
+                                    <div class="swiper-slide">
+                                        <div class="row g-0 services-box-style-02"> 
+                                            <div class="col-sm-6 services-box bg-white p-10 xxl-p-8 xl-p-6 box-shadow-extra-large">
+                                                <div class="services-box-icon">
+                                                    <i class="line-icon-Bus-2 icon-double-large text-base-color mb-25px"></i>
+                                                </div>
+                                                <div class="services-box-content">
+                                                    <a href="demo-logistics-our-services.html" class="d-inline-block text-dark-gray fs-22 fw-700 mb-5px">Road freight</a>
+                                                    <p class="mb-15px">Lorem ipsum consetetur adipicing elit eiusmod tempor incididunt.</p>
+                                                    <a href="demo-logistics-our-services.html" class="btn btn-extra-large thin btn-link text-dark-gray p-0">Learn more</a>
+                                                </div> 
+                                            </div> 
+                                            <div class="col-sm-6 services-box-img xs-h-300px">
+                                                <div class="h-100 cover-background" style="background-image: url(images/demo-logistics-home-08.jpg)"></div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- end slider item -->
+                                    <!-- start slider item --> 
+                                    <div class="swiper-slide">
+                                        <div class="row g-0 services-box-style-02"> 
+                                            <div class="col-sm-6 services-box bg-white p-10 xxl-p-8 xl-p-6 box-shadow-extra-large">
+                                                <div class="services-box-icon">
+                                                    <i class="line-icon-Tram icon-double-large text-base-color mb-25px"></i>
+                                                </div>
+                                                <div class="services-box-content">
+                                                    <a href="demo-logistics-our-services.html" class="d-inline-block text-dark-gray fs-22 fw-700 mb-5px">Train freight</a>
+                                                    <p class="mb-15px">Lorem ipsum consetetur adipicing elit eiusmod tempor incididunt.</p>
+                                                    <a href="demo-logistics-our-services.html" class="btn btn-extra-large thin btn-link text-dark-gray p-0">Learn more</a>
+                                                </div> 
+                                            </div> 
+                                            <div class="col-sm-6 services-box-img xs-h-300px">
+                                                <div class="h-100 cover-background" style="background-image: url(images/demo-logistics-home-09.jpg)"></div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- end slider item -->
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- start slider pagination -->
+                        <!--<div class="swiper-pagination slider-four-slide-pagination-1 swiper-pagination-style-2 swiper-pagination-clickable swiper-pagination-bullets"></div>-->
+                        <!-- end slider pagination -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+       
+        <!-- start scroll progress -->
+        <div class="scroll-progress d-none d-xxl-block">
+            <a href="#" class="scroll-top" aria-label="scroll">
+                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+            </a>
+        </div>
+        <!-- end scroll progress -->
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="./assets/js/jquery.js"></script>
+        <script type="text/javascript" src="./assets/js/vendors.min.js"></script>
+        <script type="text/javascript" src="./assets/js/main.js"></script>
+    </body>
 </html>
