@@ -133,7 +133,14 @@ footer p {
 }
 /* Transparent background color */
 .bg-gradient-gray-light-dark-transparent {
-    background-image: linear-gradient(to top, #f7f7f7 0%, transparent 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 35, 41, 1)), to(transparent));
+    background-image: linear-gradient(to top, rgba(32, 35, 41, 1) 0%, transparent 80%);
+}
+
+.btn.btn-light-base-color {
+    background-color: #c7e9d4;
+    border-color: #c7e9d4;
+    color: var(--dark-gray);
 }
 @media (max-width: 1399px) {
     .xl-h-180px {
