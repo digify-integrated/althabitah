@@ -10,7 +10,7 @@
                             <span class="me-25px fs-15 md-m-0">
                                 <i class="feather icon-feather-phone-call text-base-color me-10px"></i><span class="text-light-gray">+971 5 4337 9025</span>
                             </span>
-                            <span class="d-xl-inline-block d-none fs-15"><i class="feather icon-feather-mail text-base-color me-10px"></i><a href="#" class="widget text-light-gray text-white-hover">althabitahjenny@gmail.com</a></span>
+                            <span class="d-xl-inline-block d-none fs-15"><i class="feather icon-feather-mail text-base-color me-10px"></i><a href="#" class="widget text-light-gray text-white-hover">contact@althabitah.com</a></span>
                         </div>
                         <div class="col-md-4 text-end header-icon d-none d-lg-flex fs-15 ">
                             <div class="header-social-icon icon">
@@ -55,6 +55,10 @@
                                         <li><a href="window-cleaning.php"><i class="line-icon-Window align-middle text-base-color"></i>Window Cleaning</a></li>
                                         <li><a href="plumbing-service.php"><i class="line-icon-Pipe align-middle text-base-color"></i>Plumbing Service</a></li>
                                         <li><a href="pest-control-service.php"><i class="line-icon-Bug align-middle text-base-color"></i>Pest Control Service</a></li>
+                                        <li><a href="sofa-cleaning.php"><i class="line-icon-Chair align-middle text-base-color"></i>Sofa Cleaning</a></li>
+                                        <li><a href="carpet-cleaning.php"><i class="line-icon-Cookies align-middle text-base-color"></i>Carpet Cleaning</a></li>
+                                        <li><a href="mattress-cleaning.php"><i class="line-icon-Sexual align-middle text-base-color"></i>Mattress Cleaning</a></li>
+                                        <li><a href="curtain-cleaning.php"><i class="line-icon-Dress align-middle text-base-color"></i>Curtain Cleaning</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a href="contact-us.php" class="nav-link">Contact us</a></li>
@@ -65,11 +69,11 @@
                         <div class="header-icon">
                             <div class="d-none d-xl-inline-block"><div class="fw-600"><a href="tel:1800222000" class="widget-text"><i class="feather icon-feather-phone-call me-10px"></i>1 800 222 000</a></div></div>
                             <div class="header-button ms-25px">
-                                <a href="demo-logistics-contact-us.html" class="btn btn-small btn-base-color btn-hover-animation-switch btn-round-edge btn-box-shadow fw-700 ls-0px btn-icon-left">
+                                <a href="booking.php" class="btn btn-small btn-base-color btn-hover-animation-switch btn-round-edge btn-box-shadow fw-700 ls-0px btn-icon-left">
                                     <span> 
-                                        <span class="btn-text">Get a quote</span>
-                                        <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
-                                        <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
+                                        <span class="btn-text">Book Now</span>
+                                        <span class="btn-icon"><i class="feather icon-feather-calendar"></i></span>
+                                        <span class="btn-icon"><i class="feather icon-feather-calendar"></i></span>
                                     </span>
                                 </a>
                             </div>

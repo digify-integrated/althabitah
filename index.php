@@ -16,8 +16,8 @@
                                     <h1 class="fw-600">Exceptional cleaning for your home or office</h1>  
                                     <div class="fs-20 opacity-6 mb-40px sm-mb-30px">Delivering high-quality cleaning services that meet the unique needs of your home and office</div>
                                     <div class="lg-mb-8 md-mb-0">
-                                        <a href="demo-logistics-about-us.html" class="btn btn-white btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Book now</a>
-                                        <a href="demo-real-estate-property-details.html" class="btn btn-transparent-white-light btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Learn more</a>
+                                        <a href="booking.php" class="btn btn-white btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Book now</a>
+                                        <a href="our-services.php" class="btn btn-transparent-white-light btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Learn more</a>
                                     </div>
                                 </div>
                             </div> 
@@ -33,8 +33,8 @@
                                     <div class="fs-20 opacity-6 mb-40px sm-mb-30px">Specialized in creating pristine and welcoming spaces, from residences to businesses</div>
                                     <div class="lg-mb-8 md-mb-0">
                                         
-                                    <a href="demo-logistics-about-us.html" class="btn btn-white btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Book now</a>
-                                        <a href="demo-real-estate-property-details.html" class="btn btn-transparent-white-light btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Learn more</a>
+                                    <a href="booking.php" class="btn btn-white btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Book now</a>
+                                        <a href="our-services.php" class="btn btn-transparent-white-light btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Learn more</a>
                                     </div>
                                 </div>
                             </div> 
@@ -49,8 +49,8 @@
                                     <h1 class="fw-600">Creating a Spotless Haven for Your Family</h1>  
                                     <div class="fs-20 opacity-6 mb-40px sm-mb-30px">Trust our dedicated team for thorough, respectful, and efficient home cleaning.</div>
                                     <div class="lg-mb-8 md-mb-0">
-                                        <a href="demo-logistics-about-us.html" class="btn btn-white btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Book now</a>
-                                        <a href="demo-real-estate-property-details.html" class="btn btn-transparent-white-light btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Learn more</a>
+                                        <a href="booking.php" class="btn btn-white btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Book now</a>
+                                        <a href="our-services.php" class="btn btn-transparent-white-light btn-extra-large btn-round-edge fw-700 btn-box-shadow me-35px">Learn more</a>
                                     </div>
                                 </div>
                             </div> 
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="bg-dark-gray ps-50px pe-50px pt-20px pb-20px sm-ps-30px sm-pe-30px">
-                                <a href="demo-logistics-contact-us.html" class="fs-19 fw-500 text-white d-flex w-100 align-items-center">Get a free quote now<i class="feather icon-feather-plus ms-auto icon-extra-medium"></i></a>
+                                <a href="contact-us.php" class="fs-19 fw-500 text-white d-flex w-100 align-items-center">Get a free quote now<i class="feather icon-feather-plus ms-auto icon-extra-medium"></i></a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                             </div>
                         </div>
                         <div class="mt-35px d-flex flex-wrap">
-                            <a href="demo-logistics-our-services.html" class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-15px">
+                            <a href="our-services.php" class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-15px">
                                 <span> 
                                     <span class="btn-text">Our services</span>
                                     <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
@@ -214,10 +214,9 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-07.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">House Cleaning</a> 
+                                                    <a href="house-cleaning.php" class="text-white alt-font fw-600 fs-26">House Cleaning</a> 
                                                     <span class="opacity-7 text-white">Keep your home spotless with thorough cleaning tailored to your needs</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="house-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -234,10 +233,9 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-09.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">Office Cleaning</a> 
+                                                    <a href="office-cleaning.php" class="text-white alt-font fw-600 fs-26">Office Cleaning</a> 
                                                     <span class="opacity-7 text-white">Ensure a clean and productive workspace with our reliable office cleaning services</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="office-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -254,10 +252,9 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-08.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">Kitchen Cleaning</a> 
+                                                    <a href="kitchen-cleaning.php" class="text-white alt-font fw-600 fs-26">Kitchen Cleaning</a> 
                                                     <span class="opacity-7 text-white">Deep cleaning for a hygienic and sparkling kitchen</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="kitchen-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -274,10 +271,9 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-10.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">Water Tank Cleaning</a> 
+                                                    <a href="water-tank-cleaning.php" class="text-white alt-font fw-600 fs-26">Water Tank Cleaning</a> 
                                                     <span class="opacity-7 text-white">Maintain safe and clean water storage with professional tank cleaning</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="water-tank-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -293,10 +289,9 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-09.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">Window Cleaning</a> 
+                                                    <a href="window-cleaning.php" class="text-white alt-font fw-600 fs-26">Window Cleaning</a> 
                                                     <span class="opacity-7 text-white">Crystal-clear windows with streak-free, expert cleaning</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="window-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -313,10 +308,9 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-08.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">Plumbing Service</a> 
+                                                    <a href="plumbing-service.php" class="text-white alt-font fw-600 fs-26">Plumbing Service</a> 
                                                     <span class="opacity-7 text-white">Quick and efficient plumbing solutions for any issues in your home or office</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="plumbing-service.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -333,10 +327,85 @@
                                                     <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                                                 </a>
                                                 <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
-                                                    <img src="images/demo-real-estate-icon-08.png" class="mb-auto h-70px" alt="" />
-                                                    <a href="demo-real-estate-sell.html" class="text-white alt-font fw-600 fs-26">Pest Control Service</a> 
+                                                    <a href="pest-control-service.php" class="text-white alt-font fw-600 fs-26">Pest Control Service</a> 
                                                     <span class="opacity-7 text-white">Effective pest control to keep your space free from unwanted intruders</span>
-                                                    <a href="demo-real-estate-sell.html" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                    <a href="pest-control-service.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <!-- end interactive banner item -->
+                                    </div>
+                                    <!-- end slider item --> 
+                                    <!-- start slider item -->
+                                    <div class="swiper-slide">
+                                        <!-- start interactive banner item -->
+                                        <div class="col interactive-banner-style-05">
+                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                                <a href="#">
+                                                    <img src="./assets/images/services/sofa-cleaning-01.jpg" class="w-100 border-radius-6px" alt="" />
+                                                    <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
+                                                </a>
+                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
+                                                    <a href="sofa-cleaning.php" class="text-white alt-font fw-600 fs-26">Sofa Cleaning</a> 
+                                                    <span class="opacity-7 text-white">Thorough cleaning to refresh your sofa and remove embedded dirt, stains, and allergens.</span>
+                                                    <a href="sofa-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <!-- end interactive banner item -->
+                                    </div>
+                                    <!-- end slider item --> 
+                                    <!-- start slider item -->
+                                    <div class="swiper-slide">
+                                        <!-- start interactive banner item -->
+                                        <div class="col interactive-banner-style-05">
+                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                                <a href="#">
+                                                    <img src="./assets/images/services/carpet-cleaning-01.jpg" class="w-100 border-radius-6px" alt="" />
+                                                    <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
+                                                </a>
+                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
+                                                    <a href="carpet-cleaning.php" class="text-white alt-font fw-600 fs-26">Carpet Cleaning</a> 
+                                                    <span class="opacity-7 text-white">Deep cleaning to revive your carpets and eliminate dust, stains, and trapped pollutants</span>
+                                                    <a href="carpet-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <!-- end interactive banner item -->
+                                    </div>
+                                    <!-- end slider item --> 
+                                    <!-- start slider item -->
+                                    <div class="swiper-slide">
+                                        <!-- start interactive banner item -->
+                                        <div class="col interactive-banner-style-05">
+                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                                <a href="#">
+                                                    <img src="./assets/images/services/mattress-cleaning-01.jpg" class="w-100 border-radius-6px" alt="" />
+                                                    <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
+                                                </a>
+                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
+                                                    <a href="mattress-cleaning.php" class="text-white alt-font fw-600 fs-26">Mattress Cleaning</a> 
+                                                    <span class="opacity-7 text-white">Comprehensive cleaning to ensure a healthier sleep by removing dust mites, stains, and odors</span>
+                                                    <a href="mattress-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <!-- end interactive banner item -->
+                                    </div>
+                                    <!-- end slider item --> 
+                                    <!-- start slider item -->
+                                    <div class="swiper-slide">
+                                        <!-- start interactive banner item -->
+                                        <div class="col interactive-banner-style-05">
+                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
+                                                <a href="#">
+                                                    <img src="./assets/images/services/curtain-cleaning-01.jpg" class="w-100 border-radius-6px" alt="" />
+                                                    <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
+                                                </a>
+                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-50px xl-p-40px sm-p-30px last-paragraph-no-margin">
+                                                    <a href="curtain-cleaning.php" class="text-white alt-font fw-600 fs-26">Curtain Cleaning</a> 
+                                                    <span class="opacity-7 text-white">Expert cleaning to freshen up your curtains, removing dust and maintaining fabric quality</span>
+                                                    <a href="curtain-cleaning.php" class="btn btn-light-base-color btn-small btn-round-edge btn-box-shadow mt-20px">Learn more<i class="feather icon-feather-arrow-right icon-very-small"></i></a>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -356,9 +425,8 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center g-0">
                     <div class="col-auto d-flex align-items-center" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <img src="images/demo-data-analysis-08.png" alt="" class="xs-w-120px">
                         <div class="fs-22 last-paragraph-no-margin fw-500 text-dark-gray pt-15px pb-15px">
-                            <p>Save your precious time and effort spent for finding a solution. <a href="demo-logistics-contact-us.html" class="text-decoration-line-bottom fw-700 text-dark-gray">Contact us now</a></p>
+                            <p>Save your precious time and effort spent for finding a solution. <a href="contact-us.php" class="text-decoration-line-bottom fw-700 text-dark-gray">Contact us now</a></p>
                         </div>
                     </div>
                 </div>
@@ -367,7 +435,7 @@
         <!-- end section -->
 
         <!-- start section -->
-        <section> 
+        <section class="mb-2"> 
             <div class="container">
                 <div class="row align-items-center mb-8 sm-mb-50px justify-content-md-center"> 
                     <div class="col-xl-5 col-lg-6 col-md-12 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
@@ -428,16 +496,16 @@
                             </div>
                         </div>
                         <div>
-                            <a href="demo-logistics-our-services.html" class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-15px">
+                            <a href="our-services.php" class="btn btn-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow me-15px">
                                 <span> 
                                     <span class="btn-text">Explore more</span>
                                     <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
                                 </span>
                             </a>
-                            <a href="demo-logistics-contact-us.html" class="btn btn-large btn-transparent-light-gray btn-hover-animation-switch btn-round-edge sm-mb-15px sm-mt-15px">
+                            <a href="booking.php" class="btn btn-large btn-transparent-light-gray btn-hover-animation-switch btn-round-edge sm-mb-15px sm-mt-15px">
                                 <span> 
-                                    <span class="btn-text">Get a quote</span>
+                                    <span class="btn-text">Book now</span>
                                     <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather icon-feather-arrow-right"></i></span>
                                 </span>
@@ -483,72 +551,6 @@
         </section>
         <!-- end section -->
 
-       <!-- start section --> 
-       <section class="position-relative mb-2" id="appointment">
-            <div class="container">
-                <div class="row justify-content-center" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 50, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <div class="col-xl-4 col-lg-5 md-mb-50px">
-                        <h2 class="fw-800 text-dark-gray ls-minus-2px">Book an appointment today.</h2>
-                        <p class="w-90 md-w-100 mb-30px">Our scheduling specialist will reach out to confirm the details.</p>
-                        <div class="row g-0 align-items-center">
-                            <div class="col-auto">
-                                <img class="me-15px" src="images/demo-medical-home-05.png" alt="" />
-                            </div>
-                            <div class="col">
-                                <span class="fw-600 text-dark-gray">For urgent matters<br><a href="tel:12345678910" class="fs-22 ls-minus-05px fw-800">+1 234 567 8910</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="contact-form-style-05">
-                            <!-- start contact form -->
-                            <form action="email-templates/contact-form.php" method="post">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-6 sm-mb-25px">
-                                        <input class="mb-25px form-control required" type="text" name="name" placeholder="Patient's full name*" />
-                                        <input class="mb-25px form-control required" type="text" name="email" placeholder="Patient's email*" />
-                                        <div class="date-time row gutter-very-small">
-                                            <div class="date-icon col-xl-6 lg-mb-25px">
-                                                <input class="form-control" type="date" name="date" value="2023-01-01" min="2023-01-01" max="2099-12-31" aria-label="date"  /> 
-                                            </div>
-                                            <div class="time-icon col-xl-6"> 
-                                                <input class="form-control" type="time" name="time" value="09:12" min="09:00" max="12:00" aria-label="time" /> 
-                                            </div>
-                                        </div>
-                                    </div>   
-                                    <div class="col-md-6">
-                                        <div class="mb-25px select">
-                                            <select class="form-control" name="select" aria-label="select-doctor">
-                                                <option value="">Select doctor</option>
-                                                <option value="Pediatrician - Dr. Bryan jonhson">Pediatrician - Dr. Bryan jonhson</option>
-                                                <option value="Cardiology - Dr. Jemmy watson">Cardiology - Dr. Jemmy watson</option>
-                                                <option value="Neurology - Dr. Jeremy dupont">Neurology - Dr. Jeremy dupont</option>
-                                                <option value="Orthopedics - Dr. Evan thomson">Orthopedics - Dr. Evan thomson</option>
-                                                <option value="Optometrists - Dr. Shoko mugikura">Optometrists - Dr. Shoko mugikura</option>
-                                            </select>
-                                        </div>
-                                        <textarea class="form-control" cols="20" rows="4" name="comment" placeholder="Your message"></textarea>
-                                    </div>
-                                    <div class="col-md-6 mt-25px sm-mt-20px">
-                                        <p class="mb-0 fs-13 lh-24 text-center text-md-start">We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</p>
-                                    </div>
-                                    <div class="col-md-6 text-center text-md-end mt-25px sm-mt-20px">
-                                        <input type="hidden" name="redirect" value="">
-                                        <button class="btn btn-medium btn-base-color btn-round-edge left-icon btn-box-shadow submit" type="submit"><i class="bi bi-calendar-check"></i>Book appointment</button>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-results mt-20px d-none text-center"></div>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- end contact form -->
-                        </div>
-                    </div>
-                </div>
-                <div class="position-absolute bottom-minus-15px right-100px lg-right-0px z-index-minus-1 opacity-1 w-300px lg-w-200px"><img src="images/demo-medical-home-08.png" alt="" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)"></div>
-            </div>
-        </section>
-        <!-- end section -->
 
         <?php 
             require_once('./view/_footer.php'); 

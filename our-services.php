@@ -165,7 +165,7 @@
                         </div>
                         <!-- end services box style -->
                     </div>
-                    <div class="col">
+                    <div class="col mb-30px">
                         <!-- start services box style --> 
                         <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
                             <div class="position-relative">
@@ -178,6 +178,102 @@
                                 </div> 
                                 <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
                                     <a href="pest-control-service.php" class="btn btn-link btn-hover-animation-switch fw-700 btn-small text-dark-gray text-uppercase">
+                                        <span>
+                                            <span class="btn-text">Explore services</span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end services box style -->
+                    </div>
+                    <div class="col mb-30px">
+                        <!-- start services box style --> 
+                        <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                            <div class="position-relative">
+                                <a href="sofa-cleaning.php"><img src="./assets/images/services/sofa-cleaning-01.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <div class="p-30px w-80 xl-w-100 mx-auto text-center">
+                                    <a href="sofa-cleaning.php" class="d-inline-block fs-20 fw-600 text-dark-gray mb-5px">Sofa Cleaning</a>
+                                    <p>Thorough cleaning to refresh your sofa and remove embedded dirt, stains, and allergens</p> 
+                                </div> 
+                                <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
+                                    <a href="sofa-cleaning.php" class="btn btn-link btn-hover-animation-switch fw-700 btn-small text-dark-gray text-uppercase">
+                                        <span>
+                                            <span class="btn-text">Explore services</span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end services box style -->
+                    </div>
+                    <div class="col mb-30px">
+                        <!-- start services box style --> 
+                        <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                            <div class="position-relative">
+                                <a href="carpet-cleaning.php"><img src="./assets/images/services/carpet-cleaning-01.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <div class="p-30px w-80 xl-w-100 mx-auto text-center">
+                                    <a href="carpet-cleaning.php" class="d-inline-block fs-20 fw-600 text-dark-gray mb-5px">Carpet Cleaning</a>
+                                    <p>Deep cleaning to revive your carpets and eliminate dust, stains, and trapped pollutants</p> 
+                                </div> 
+                                <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
+                                    <a href="carpet-cleaning.php" class="btn btn-link btn-hover-animation-switch fw-700 btn-small text-dark-gray text-uppercase">
+                                        <span>
+                                            <span class="btn-text">Explore services</span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end services box style -->
+                    </div>
+                    <div class="col mb-30px">
+                        <!-- start services box style --> 
+                        <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                            <div class="position-relative">
+                                <a href="mattress-cleaning.php"><img src="./assets/images/services/mattress-cleaning-01.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <div class="p-30px w-80 xl-w-100 mx-auto text-center">
+                                    <a href="mattress-cleaning.php" class="d-inline-block fs-20 fw-600 text-dark-gray mb-5px">Mattress Cleaning</a>
+                                    <p>Comprehensive cleaning to ensure a healthier sleep by removing dust mites, stains, and odors</p> 
+                                </div> 
+                                <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
+                                    <a href="mattress-cleaning.php" class="btn btn-link btn-hover-animation-switch fw-700 btn-small text-dark-gray text-uppercase">
+                                        <span>
+                                            <span class="btn-text">Explore services</span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        </span> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end services box style -->
+                    </div>
+                    <div class="col mb-30px">
+                        <!-- start services box style --> 
+                        <div class="border-radius-8px overflow-hidden box-shadow-quadruple-large services-box-style-03 last-paragraph-no-margin">
+                            <div class="position-relative">
+                                <a href="curtain-cleaning.php"><img src="./assets/images/services/curtain-cleaning-01.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <div class="p-30px w-80 xl-w-100 mx-auto text-center">
+                                    <a href="curtain-cleaning.php" class="d-inline-block fs-20 fw-600 text-dark-gray mb-5px">Curtain Cleaning</a>
+                                    <p>Expert cleaning to freshen up your curtains, removing dust and maintaining fabric quality</p> 
+                                </div> 
+                                <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center">
+                                    <a href="curtain-cleaning.php" class="btn btn-link btn-hover-animation-switch fw-700 btn-small text-dark-gray text-uppercase">
                                         <span>
                                             <span class="btn-text">Explore services</span>
                                             <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>

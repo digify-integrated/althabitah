@@ -22,19 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 pe-5 order-2 order-lg-1 lg-pe-3 md-pe-15px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <div class="bg-very-light-gray border-radius-6px p-45px lg-p-25px mb-25px">
-                            <span class="fs-22 text-dark-gray fw-600 mb-20px d-inline-block">Other Services</span>
-                            <ul class="p-0 m-0 list-style-02 fw-500">
-                                <li class="pb-5px mb-10px border-bottom border-color-transparent-dark"><a href="office-cleaning.php">Office Cleaning</a><i class="feather icon-feather-arrow-right ms-auto icon-small"></i></li>
-                                <li class="pb-5px mb-10px border-bottom border-color-transparent-dark"><a href="kitchen-cleaning.php">Kitchen Cleaning</a><i class="feather icon-feather-arrow-right ms-auto icon-small"></i></li>
-                                <li class="pb-5px mb-10px border-bottom border-color-transparent-dark"><a href="water-tank-cleaning.php">Water Tank Cleaning</a><i class="feather icon-feather-arrow-right ms-auto icon-small"></i></li>
-                                <li class="pb-5px mb-10px border-bottom border-color-transparent-dark"><a href="window-cleaning.php">Window Cleaning</a><i class="feather icon-feather-arrow-right ms-auto icon-small"></i></li>
-                                <li class="pb-5px mb-10px border-bottom border-color-transparent-dark"><a href="plumbing-service.php">Plumbing Service</a><i class="feather icon-feather-arrow-right ms-auto icon-small"></i></li>
-                                <li class="pb-5px mb-10px border-bottom border-color-transparent-dark"><a href="pest-control-service.php">Pest Control Service</a><i class="feather icon-feather-arrow-right ms-auto icon-small"></i></li>
-                            </ul>
-                        </div>
-                        
-                        <?php require_once('./view/_services_form.php'); ?>
+                        <?php require_once('./view/_services_shortcut.php'); ?>
                     </div>
                     <div class="col-lg-8 order-1 order-lg-2 md-mb-50px" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                         <h4 class="text-dark-gray fw-700 ls-minus-1px mb-20px d-block">House Cleaning</h4>
@@ -46,7 +34,7 @@
                                     <p>Tailored solutions to meet your cleaning needs, ensuring spotless results every time.</p>
                                 </div>
                                 <div class="bg-base-color p-15px text-center">
-                                    <a href="demo-logistics-contact-us.html" class="text-dark-gray text-dark-gray-hover fw-600"><i class="feather icon-feather-mail me-10px"></i>Talk with our team</a>
+                                    <a href="contact-us.php" class="text-dark-gray text-dark-gray-hover fw-600"><i class="feather icon-feather-mail me-10px"></i>Talk with our team</a>
                                 </div>
                             </div>
                         </div>
@@ -55,13 +43,13 @@
                             <p class="p-30px border-bottom border-1 border-color-extra-medium-gray mb-0"><span class="fw-600 text-dark-gray">Spotless Living: </span>Experience a fresh and clean home with meticulous attention to detail.
                             </p>
                             <p class="p-30px border-bottom border-1 border-color-extra-medium-gray mb-0"><span class="fw-600 text-dark-gray">Time-Saving: </span>Let us handle the cleaning while you focus on what matters most.</p>
-                            <p class="p-30px mb-0"><span class="fw-600 text-dark-gray">Healthier Home: </span>Remove dust, allergens, and germs for a healthier living environment.</p>
+                            <p class="p-30px border-bottom border-1 border-color-extra-medium-gray mb-0"><span class="fw-600 text-dark-gray">Healthier Home: </span>Remove dust, allergens, and germs for a healthier living environment.</p>
                             <p class="p-30px mb-0"><span class="fw-600 text-dark-gray">Professional Care: </span>Rest easy knowing experts are taking care of your space.</p>
                         </div>
                         <div class="row align-items-center g-0">
                             <div class="col-auto d-block d-sm-flex align-items-center text-center text-sm-start">
                                 <div class="fw-500 last-paragraph-no-margin text-dark-gray ps-15px xs-ps-0 xs-mt-15px">
-                                    <p>Save your time and effort spent for finding a solution. <a href="demo-logistics-contact-us.html" class="text-decoration-line-bottom fw-700 text-dark-gray">Contact us now</a></p>
+                                    <p>Save your time and effort spent for finding a solution. <a href="contact-us.php" class="text-decoration-line-bottom fw-700 text-dark-gray">Contact us now</a></p>
                                 </div>
                             </div>
                         </div>

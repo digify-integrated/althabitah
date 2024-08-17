@@ -1,4 +1,17 @@
- <!-- start footer -->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/66c087840cca4f8a7a771215/1i5g12nb6';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<!-- start footer -->
         <footer class="bg-dark-gray background-position-center-top pb-2" style="background-image: url('./assets/images/footer-dot.svg')"> 
             <div class="container overlap-section">
                 <div class="row g-0 justify-content-center align-items-center bg-base-color border-radius-6px ps-7 pe-7 pt-4 pb-4 lg-p-30px sm-p-20px mb-7">
@@ -12,7 +25,7 @@
                             </div>
                             <div class="feature-box-content last-paragraph-no-margin">
                                 <span class="text-white fs-18 lh-22 mb-5px d-block">Interested in working?</span>
-                                <h6 class="d-inline-block fw-600 mb-0"><a href="/cdn-cgi/l/email-protection#aec6cbc2c2c1eecac1c3cfc7c080cdc1c3" class="text-dark-gray text-decoration-line-bottom-medium text-white-hover"><span class="__cf_email__" data-cfemail="ea828f868685aa8e85878b8384c4898587">[email&#160;protected]</span></a></h6> 
+                                <h6 class="d-inline-block fw-600 mb-0"><a href="javascript:void(0);" class="text-dark-gray text-decoration-line-bottom-medium text-white-hover">contact@althabitah.com</a></h6> 
                             </div>
                         </div>
                     </div>
@@ -22,7 +35,7 @@
                 <div class="row mb-5 sm-mb-30px">
                     <!-- start footer column -->
                     <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column last-paragraph-no-margin md-mb-35px">
-                        <a href="demo-marketing.html" class="footer-logo mb-25px xs-mb-20px d-inline-block">
+                        <a href="index.php" class="footer-logo mb-25px xs-mb-20px d-inline-block">
                             <img src="./assets/images/logo.png" data-at2x="./assets/images/logo.png" alt="">
                         </a>
                         <p class="lh-30 w-90 xl-w-100 mx-lg-auto mx-xl-0">Transforming your space with innovative cleaning solutions.</p>
@@ -46,16 +59,6 @@
                     <!-- end footer column -->
                     <!-- start footer column -->
                     <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin md-mb-35px"> 
-                        <span class="fs-17 fw-500 d-block text-white mb-5px">Information</span>
-                        <ul>                           
-                            <li><a href="about-us.php">About Us</a></li>
-                            <li><a href="our-services.php">Our Services</a></li>
-                            <li><a href="contact-us.php">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin md-mb-35px"> 
                         <span class="fs-17 fw-500 d-block text-white mb-5px">Our Services</span>
                         <ul>                           
                             <li><a href="house-cleaning.php">House Cleaning</a></li>
@@ -64,28 +67,37 @@
                             <li><a href="water-tank-cleaning.php">Water Tank Cleaning</a></li>
                             <li><a href="window-cleaning.php">Window Cleaning</a></li>
                             <li><a href="plumbing-service.php">Plumbing Service</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin md-mb-35px"> 
+                        <span class="fs-17 fw-500 d-block text-white mb-5px">Our Services</span>
+                        <ul>                           
                             <li><a href="pest-control-service.php">Pest Control Service</a></li>
+                            <li><a href="sofa-cleaning.php">Sofa Cleaning</a></li>
+                            <li><a href="carpet-cleaning.php">Carpet Cleaning</a></li>
+                            <li><a href="mattress-cleaning.php">Mattress Cleaning</a></li>
+                            <li><a href="curtain-cleaning.php">Curtain Cleaning</a></li>
                         </ul>
                     </div>
                     <!-- end footer column -->
                 </div> 
                 <div class="row align-items-center footer-bottom border-top border-color-transparent-white-light pt-30px g-0">
                     <!-- start footer menu -->
-                    <div class="col-lg-8 ps-0 text-center text-lg-start md-mb-10px"> 
+                    <div class="col-lg-7 ps-0 text-center text-lg-start md-mb-10px"> 
                         <ul class="footer-navbar fs-15 lh-normal"> 
-                            <li class="nav-item active"><a href="demo-marketing.html" class="nav-link ps-0">Home</a></li>
-                            <li class="nav-item"><a href="demo-marketing-about.html" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="demo-marketing-services.html" class="nav-link">Services</a></li>
-                            <li class="nav-item"><a href="demo-marketing-case-studies.html" class="nav-link">Case studies</a></li>
-                            <li class="nav-item"><a href="demo-marketing-pricing.html" class="nav-link">Pricing</a></li>
-                            <li class="nav-item"><a href="demo-marketing-team.html" class="nav-link">Team</a></li>
-                            <li class="nav-item"><a href="demo-marketing-contact.html" class="nav-link">Contact</a></li>
+                            <li class="nav-item active"><a href="index.php" class="nav-link ps-0">Home</a></li>
+                            <li class="nav-item"><a href="about-us.php" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a href="our-services.php" class="nav-link">Our Services</a></li>
+                            <li class="nav-item"><a href="booking.php" class="nav-link">Book Now</a></li>
+                            <li class="nav-item"><a href="contact-us.php" class="nav-link">Contact Us</a></li>
                         </ul>
                     </div> 
                     <!-- end footer menu -->
                     <!-- start copyright -->
-                    <div class="col-lg-4 last-paragraph-no-margin text-center text-lg-end">
-                        <p class="fs-15">&copy; 2024 Crafto is Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-white text-decoration-line-bottom">ThemeZaa</a></p>
+                    <div class="col-lg-5 last-paragraph-no-margin text-center text-lg-end">
+                        <p class="fs-15">&copy; 2024 Al Thabitah Cleaning Services And Building Maintenance</p>
                     </div>
                     <!-- start copyright -->
                 </div>

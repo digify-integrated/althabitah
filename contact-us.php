@@ -22,18 +22,18 @@
             <div class="container"> 
                 <div class="row align-items-end justify-content-center mb-6 text-center text-lg-start sm-mb-8">                    
                     <div class="col-xl-5 col-lg-7 col-md-10 md-mb-25px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block">How can help you?</span>
+                        <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block">How can we help you?</span>
                         <h3 class="text-dark-gray fw-700 ls-minus-1px mb-0">Need cleaning solutions? Get in touch with us!</h3>
                     </div>
                     <div class="col-xl-6 offset-xl-1 col-lg-5 col-md-10 last-paragraph-no-margin">
-                        <p class="w-90 lg-w-100" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>We're here to assist with any questions you may have and look forward to hearing from you. Feel free to contact us or visit our office for a chat over coffee.</p>
+                        <p class="w-90 lg-w-100" data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>We’re here to help with any questions you might have and look forward to connecting with you. Feel free to reach out to us or drop by our office for a friendly chat over coffee.</p>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 mb-6 sm-mb-8" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <div class="col md-mb-30px text-center text-sm-start">
                         <span class="alt-font fs-18 fw-700 d-block w-90 text-dark-gray border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i class="feather icon-feather-map-pin d-inline-block icon-small me-10px"></i>Office location</span>
                         <div class="last-paragraph-no-margin">
-                            <p>16122 collins street,<br> Melbourne, Australia</p>
+                            <p>Al Rashidiya 2, <br> Al Kaabi Building, Ajman</p>
                         </div>
                     </div>
                     <div class="col md-mb-30px text-center text-sm-start">
@@ -50,18 +50,6 @@
                         <span class="alt-font fs-18 fw-700 d-block w-90 text-dark-gray border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i class="feather icon-feather-users d-inline-block icon-small me-10px"></i>Join our team</span>
                         <a href="/cdn-cgi/l/email-protection#c2aaabb0a782bbadb7b0a6adafa3abaceca1adaf"><span class="__cf_email__" data-cfemail="7810110a1d3801170d0a1c1715191116561b1715">[email&#160;protected]</span></a><br>
                         <a href="/cdn-cgi/l/email-protection#e48c96a49d8b9196808b89858d8aca878b89"><span class="__cf_email__" data-cfemail="0f677d4f76607a7d6b60626e6661216c6062">[email&#160;protected]</span></a>
-                    </div>
-                </div>
-                <div class="row justify-content-center g-0" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <div class="col-auto text-center last-paragraph-no-margin icon-with-text-style-08 pt-20px pb-20px ps-8 pe-8 md-ps-30px md-pe-30px bg-gradient-flamingo-amethyst-green border-radius-100px xs-border-radius-30px">
-                        <div class="feature-box feature-box-left-icon-middle overflow-hidden">
-                            <div class="feature-box-icon me-10px">
-                                <i class="bi bi-chat-text fs-24 icon-very-medium text-white"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin text-white text-uppercase fs-15 fw-600 ls-05px xs-lh-24">
-                                Let's make something great work together. <a href="demo-corporate-contact.html" class="text-white text-decoration-line-bottom-medium">Got a project in mind?</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -83,7 +71,6 @@
                 </div>
             </div>
             <div class="container-fluid overflow-hidden position-relative pt-6 sm-pt-40px">
-                <img src="images/demo-corporate-contact-bg-01.png" class="position-absolute top-0 left-minus-300px z-index-minus-1" data-bottom-top="transform: rotate(0deg) translateY(0)" data-top-bottom="transform:rotate(-15deg) translateY(0)" alt=""/>
                 <div class="row justify-content-center mb-2 sm-mb-3">
                     <div class="col-lg-6 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <span class="ps-25px pe-25px mb-15px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-quartz-light-transparent d-inline-block">Get in touch with us</span>
@@ -125,7 +112,7 @@
                                 <div class="col-12 mb-4">
                                     <label for="exampleInputEmail1" class="form-label fw-600 text-dark-gray mb-0">Your message</label>
                                     <div class="position-relative form-group form-textarea mb-0"> 
-                                        <textarea class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" name="comment" placeholder="Describe about your project" rows="4"></textarea>
+                                        <textarea class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control" name="comment" placeholder="Describe about your inquiry" rows="4"></textarea>
                                         <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
                                     </div>
                                 </div>

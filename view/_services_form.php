@@ -22,6 +22,14 @@
                                         <span class="form-icon"><i class="bi bi-envelope"></i></span>
                                         <input type="email" name="email" class="form-control border-white box-shadow-large required" placeholder="Your email address*" />
                                     </div> 
+                                    <div class="position-relative form-group mb-20px">
+                                        <span class="form-icon"><i class="bi bi-phone"></i></span>
+                                        <input type="text" name="phone" class="form-control border-white box-shadow-large required" placeholder="Your phone*" />
+                                    </div> 
+                                    <div class="position-relative form-group mb-20px">
+                                        <span class="form-icon"><i class="bi bi-journals"></i></span>
+                                        <input type="text" name="subject" class="form-control border-white box-shadow-large required" placeholder="How can we help you?*" />
+                                    </div> 
                                     <div class="position-relative form-group form-textarea">
                                         <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
                                         <textarea placeholder="Your message" name="comment" class="form-control border-white box-shadow-large" rows="3"></textarea>
