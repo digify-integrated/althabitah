@@ -41,26 +41,28 @@
                                                 <div class="row">
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>One Time</option>
-                                                            <option>Weekly</option>
-                                                            <option>Every Other Week</option>
-                                                            <option>Every 4 Weeks</option>
+                                                        <select class="form-control" id="deep-cleaning-frequency">
+                                                            <option value="">--</option>
+                                                            <option value="One Time">One Time</option>
+                                                            <option value="Weekly">Weekly</option>
+                                                            <option value="Monthly">Monthly</option>
+                                                            <option value="Yearly">Yearly</option>
+                                                            <option value="Every Other Week">Every Other Week</option>
+                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
                                                         </select>
                                                     </div>
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Duration</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>1 Hour</option>
-                                                            <option>2 Hours</option>
-                                                            <option>3 Hours</option>
-                                                            <option>4 Hours</option>
-                                                            <option>5 Hours</option>
-                                                            <option>6 Hours</option>
-                                                            <option>7 Hours</option>
-                                                            <option>8 Hours</option>
+                                                        <select class="form-control" id="deep-cleaning-duration">
+                                                            <option value="">--</option>
+                                                            <option value="1">1 Hour</option>
+                                                            <option value="2">2 Hours</option>
+                                                            <option value="3">3 Hours</option>
+                                                            <option value="4">4 Hours</option>
+                                                            <option value="5">5 Hours</option>
+                                                            <option value="6">6 Hours</option>
+                                                            <option value="7">7 Hours</option>
+                                                            <option value="8">8 Hours</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -83,26 +85,28 @@
                                                 <div class="row">
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>One Time</option>
-                                                            <option>Weekly</option>
-                                                            <option>Every Other Week</option>
-                                                            <option>Every 4 Weeks</option>
+                                                        <select class="form-control" id="regular-cleaning-frequency">
+                                                            <option value="">--</option>
+                                                            <option value="One Time">One Time</option>
+                                                            <option value="Weekly">Weekly</option>
+                                                            <option value="Monthly">Monthly</option>
+                                                            <option value="Yearly">Yearly</option>
+                                                            <option value="Every Other Week">Every Other Week</option>
+                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
                                                         </select>
                                                     </div>
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Duration</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>1 Hour</option>
-                                                            <option>2 Hours</option>
-                                                            <option>3 Hours</option>
-                                                            <option>4 Hours</option>
-                                                            <option>5 Hours</option>
-                                                            <option>6 Hours</option>
-                                                            <option>7 Hours</option>
-                                                            <option>8 Hours</option>
+                                                        <select class="form-control" id="regular-cleaning-duration">
+                                                            <option value="">--</option>
+                                                            <option value="1">1 Hour</option>
+                                                            <option value="2">2 Hours</option>
+                                                            <option value="3">3 Hours</option>
+                                                            <option value="4">4 Hours</option>
+                                                            <option value="5">5 Hours</option>
+                                                            <option value="6">6 Hours</option>
+                                                            <option value="7">7 Hours</option>
+                                                            <option value="8">8 Hours</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -125,26 +129,28 @@
                                                 <div class="row">
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>One Time</option>
-                                                            <option>Weekly</option>
-                                                            <option>Every Other Week</option>
-                                                            <option>Every 4 Weeks</option>
+                                                        <select class="form-control" id="office-cleaning-frequency">
+                                                            <option value="">--</option>
+                                                            <option value="One Time">One Time</option>
+                                                            <option value="Weekly">Weekly</option>
+                                                            <option value="Monthly">Monthly</option>
+                                                            <option value="Yearly">Yearly</option>
+                                                            <option value="Every Other Week">Every Other Week</option>
+                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
                                                         </select>
                                                     </div>
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Duration</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>1 Hour</option>
-                                                            <option>2 Hours</option>
-                                                            <option>3 Hours</option>
-                                                            <option>4 Hours</option>
-                                                            <option>5 Hours</option>
-                                                            <option>6 Hours</option>
-                                                            <option>7 Hours</option>
-                                                            <option>8 Hours</option>
+                                                        <select class="form-control" id="office-cleaning-duration">
+                                                            <option value="">--</option>
+                                                            <option value="1">1 Hour</option>
+                                                            <option value="2">2 Hours</option>
+                                                            <option value="3">3 Hours</option>
+                                                            <option value="4">4 Hours</option>
+                                                            <option value="5">5 Hours</option>
+                                                            <option value="6">6 Hours</option>
+                                                            <option value="7">7 Hours</option>
+                                                            <option value="8">8 Hours</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -167,26 +173,28 @@
                                                 <div class="row">
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>One Time</option>
-                                                            <option>Weekly</option>
-                                                            <option>Every Other Week</option>
-                                                            <option>Every 4 Weeks</option>
+                                                        <select class="form-control" id="flat-cleaning-frequency">
+                                                            <option value="">--</option>
+                                                            <option value="One Time">One Time</option>
+                                                            <option value="Weekly">Weekly</option>
+                                                            <option value="Monthly">Monthly</option>
+                                                            <option value="Yearly">Yearly</option>
+                                                            <option value="Every Other Week">Every Other Week</option>
+                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
                                                         </select>
                                                     </div>
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Duration</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>1 Hour</option>
-                                                            <option>2 Hours</option>
-                                                            <option>3 Hours</option>
-                                                            <option>4 Hours</option>
-                                                            <option>5 Hours</option>
-                                                            <option>6 Hours</option>
-                                                            <option>7 Hours</option>
-                                                            <option>8 Hours</option>
+                                                        <select class="form-control" id="flat-cleaning-duration">
+                                                            <option value="">--</option>
+                                                            <option value="1">1 Hour</option>
+                                                            <option value="2">2 Hours</option>
+                                                            <option value="3">3 Hours</option>
+                                                            <option value="4">4 Hours</option>
+                                                            <option value="5">5 Hours</option>
+                                                            <option value="6">6 Hours</option>
+                                                            <option value="7">7 Hours</option>
+                                                            <option value="8">8 Hours</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -209,26 +217,28 @@
                                                 <div class="row">
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>One Time</option>
-                                                            <option>Weekly</option>
-                                                            <option>Every Other Week</option>
-                                                            <option>Every 4 Weeks</option>
+                                                        <select class="form-control" id="hospital-cleaning-frequency">
+                                                            <option value="">--</option>
+                                                            <option value="One Time">One Time</option>
+                                                            <option value="Weekly">Weekly</option>
+                                                            <option value="Monthly">Monthly</option>
+                                                            <option value="Yearly">Yearly</option>
+                                                            <option value="Every Other Week">Every Other Week</option>
+                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
                                                         </select>
                                                     </div>
                                                     <div class="col-md-6 mb-20px">
                                                         <label class="mb-10px">Duration</label>
-                                                        <select class="form-control">
-                                                            <option>--</option>
-                                                            <option>1 Hour</option>
-                                                            <option>2 Hours</option>
-                                                            <option>3 Hours</option>
-                                                            <option>4 Hours</option>
-                                                            <option>5 Hours</option>
-                                                            <option>6 Hours</option>
-                                                            <option>7 Hours</option>
-                                                            <option>8 Hours</option>
+                                                        <select class="form-control" id="hospital-cleaning-duration">
+                                                            <option value="">--</option>
+                                                            <option value="1">1 Hour</option>
+                                                            <option value="2">2 Hours</option>
+                                                            <option value="3">3 Hours</option>
+                                                            <option value="4">4 Hours</option>
+                                                            <option value="5">5 Hours</option>
+                                                            <option value="6">6 Hours</option>
+                                                            <option value="7">7 Hours</option>
+                                                            <option value="8">8 Hours</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -251,7 +261,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12 mb-20px">
                                                         <label class="mb-10px">Number of Seats</label>
-                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control" id="sofa-cleaning-number-of-seats">
                                                     </div>
                                                 </div>
                                             </div>
@@ -273,7 +283,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12 mb-20px">
                                                         <label class="mb-10px">Meters</label>
-                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control" id="mattress-cleaning-meters">
                                                     </div>
                                                 </div>
                                             </div>
@@ -295,7 +305,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12 mb-20px">
                                                         <label class="mb-10px">Meters</label>
-                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control" id="curtain-cleaning-meters">
                                                     </div>
                                                 </div>
                                             </div>
@@ -317,7 +327,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12 mb-20px">
                                                         <label class="mb-10px">Meters</label>
-                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control" id="carpet-cleaning-meters">
                                                     </div>
                                                 </div>
                                             </div>
@@ -355,7 +365,7 @@
                                 <div class="col-6 mb-20px">
                                     <label class="mb-10px">Time <span class="text-red">*</span></label>
                                     <select class="form-control">
-                                        <option>--</option>
+                                        <option value="">--</option>
                                         <option>9:00 AM</option>
                                         <option>10:00 AM</option>
                                         <option>11:00 AM</option>
@@ -371,7 +381,7 @@
                                 <div class="col-md-12 mb-20px">
                                     <label class="mb-10px">How many professionals do you need? <span class="text-red">*</span></label>
                                     <select class="form-control">
-                                        <option>--</option>
+                                        <option value="">--</option>
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -397,7 +407,7 @@
                                 <div class="col-md-12 mb-20px">
                                     <label class="mb-10px">How many hours do your professionals stay? <span class="text-red">*</span></label>
                                     <select class="form-control">
-                                        <option>--</option>
+                                        <option value="">--</option>
                                         <option>1 Hour</option>
                                         <option>2 Hours</option>
                                         <option>3 Hours</option>
@@ -411,7 +421,7 @@
                                 <div class="col-md-6 mb-20px">
                                     <label class="mb-10px">Need Cleaning Materials? <span class="text-red">*</span></label>
                                     <select class="form-control">
-                                        <option>--</option>
+                                        <option value="">--</option>
                                         <option>No I have them</option>
                                         <option>Yes Please</option>
                                     </select>
@@ -419,7 +429,7 @@
                                 <div class="col-md-6 mb-20px">
                                     <label class="mb-10px">Choose your professional nationality<span class="text-red">*</span></label>
                                     <select class="form-control">
-                                        <option>--</option>
+                                        <option value="">--</option>
                                         <option>African</option>
                                         <option>Filipino</option>
                                         <option>Nepali</option>
@@ -442,34 +452,9 @@
                                         <td class="fw-600 text-dark-gray alt-font">Total</td>
                                     </tr>
                                     <tr class="product">
-                                        <td class="product-thumbnail">
-                                            <a href="javascript:void(0);" class="text-dark-gray fw-500 d-block lh-initial">Deep Cleaning</a>
-                                            <span class="fs-14 d-block">Frequency: One Time</span>
-                                            <span class="fs-14 d-block">Duration: 1 Hour</span>
+                                        <td class="product-thumbnail" colspan="2">
+                                            <a href="javascript:void(0);" class="text-dark-gray fw-500 d-block lh-initial">No orders found</a>
                                         </td>
-                                        <td class="product-price" data-title="Price">25.00 AED</td>
-                                    </tr>
-                                    <tr class="product">
-                                        <td class="product-thumbnail">
-                                            <a href="javascript:void(0);" class="text-dark-gray fw-500 d-block lh-initial">Kitchen Cleaning</a>
-                                            <span class="fs-14 d-block">Frequency: One Time</span>
-                                            <span class="fs-14 d-block">Duration: 1 Hour</span>
-                                        </td>
-                                        <td class="product-price" data-title="Price">25.00 AED</td>
-                                    </tr>
-                                    <tr class="product">
-                                        <td class="product-thumbnail">
-                                            <a href="javascript:void(0);" class="text-dark-gray fw-500 d-block lh-initial">Sofa Cleaning</a>
-                                            <span class="fs-14 d-block">Number of seats: 1</span>
-                                        </td>
-                                        <td class="product-price" data-title="Price">20.00 AED</td>
-                                    </tr>
-                                    <tr class="product">
-                                        <td class="product-thumbnail">
-                                            <a href="javascript:void(0);" class="text-dark-gray fw-500 d-block lh-initial">Mattress Cleaning</a>
-                                            <span class="fs-14 d-block">Meters: 1</span>
-                                        </td>
-                                        <td class="product-price" data-title="Price">15.00 AED</td>
                                     </tr>
                                     <!--<tr>
                                         <th class="w-50 fw-600 text-dark-gray alt-font">Subtotal</th>
@@ -486,7 +471,7 @@
                                     <tr class="total-amount">
                                         <th class="fw-600 text-dark-gray alt-font">Total</th>
                                         <td data-title="Total">
-                                            <h6 class="d-block fw-700 mb-0 text-dark-gray alt-font">85.00 AED</h6>
+                                            <h6 class="d-block fw-700 mb-0 text-dark-gray alt-font">0.00 AED</h6>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -559,5 +544,7 @@
             require_once('./view/_footer.php'); 
             require_once('./view/_required_javascript.php'); 
         ?>
+        
+        <script type="text/javascript" src="./assets/js/functions.js?v=" <?php echo rand(); ?>></script>
     </body>
 </html>

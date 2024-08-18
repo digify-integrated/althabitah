@@ -61,6 +61,7 @@
                                         <li><a href="curtain-cleaning.php"><i class="line-icon-Dress align-middle text-base-color"></i>Curtain Cleaning</a></li>
                                     </ul>
                                 </li>
+                                <li class="nav-item"><a href="booking.php" class="nav-link">Book Now</a></li>
                                 <li class="nav-item"><a href="contact-us.php" class="nav-link">Contact us</a></li>
                             </ul>
                         </div>
