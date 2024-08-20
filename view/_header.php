@@ -66,8 +66,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto ms-auto ps-lg-0 d-none d-sm-flex"> 
+                    <div class="col-auto ms-auto ps-lg-0 d-none d-sm-flex">
                         <div class="header-icon">
+                            <div class="widget-text icon alt-font">
+                                <a href="demo-fashion-store-account.html"><i class="feather icon-feather-user d-inline-block me-5px"></i><span class="d-none d-xxl-inline-block">Account</span></a>
+                            </div>
                             <div class="d-none d-xl-inline-block"><div class="fw-600"><a href="tel:1800222000" class="widget-text"><i class="feather icon-feather-phone-call me-10px"></i>1 800 222 000</a></div></div>
                             <div class="header-button ms-25px">
                                 <a href="booking.php" class="btn btn-small btn-base-color btn-hover-animation-switch btn-round-edge btn-box-shadow fw-700 ls-0px btn-icon-left">
