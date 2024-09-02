@@ -21,27 +21,23 @@
         <section class="mb-2">
             <div class="container">
                 <div class="row align-items-start">
-                    <div class="col-lg-7 pe-50px md-pe-15px md-mb-50px xs-mb-35px">
-                        <form class="">
-                            <span class="fs-26 alt-font fw-600 text-dark-gray mb-20px d-block">Booking Form</span>
-                            <div class="row">
-                                <div class="accordion accordion-style-04 mb-2" id="accordion-style-04" data-active-icon="fa-angle-right" data-inactive-icon="fa-angle-down">
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#deep-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Deep Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="deep-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control" id="deep-cleaning-frequency">
+                    <div class="col-lg-8 pe-50px md-pe-15px md-mb-50px xs-mb-35px">
+                        <table class="table cart-products">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="alt-font fw-600">Services</th>
+                                            <th scope="col" class="alt-font fw-600">Frequency</th>
+                                            <th scope="col" class="alt-font fw-600">Duration</th>
+                                            <th scope="col" class="alt-font fw-600">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr> 
+                                            <td class="product-name">
+                                                <a href="demo-decor-store-single-product.html" class="text-dark-gray fw-500 d-block lh-initial">Deep Cleaning</a> 
+                                            </td>
+                                            <td class="product-quantity" data-title="Quantity">
+                                            <select class="form-control" id="deep-cleaning-frequency">
                                                             <option value="">--</option>
                                                             <option value="One Time">One Time</option>
                                                             <option value="Weekly">Weekly</option>
@@ -50,10 +46,9 @@
                                                             <option value="Every Other Week">Every Other Week</option>
                                                             <option value="Every 4 Weeks">Every 4 Weeks</option>
                                                         </select>
-                                                    </div>
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Duration</label>
-                                                        <select class="form-control" id="deep-cleaning-duration">
+                                            </td> 
+                                            <td class="product-quantity" data-title="Quantity">
+                                            <select class="form-control" id="deep-cleaning-duration">
                                                             <option value="">--</option>
                                                             <option value="1">1 Hour</option>
                                                             <option value="2">2 Hours</option>
@@ -64,385 +59,43 @@
                                                             <option value="7">7 Hours</option>
                                                             <option value="8">8 Hours</option>
                                                         </select>
-                                                    </div>
+                                            </td> 
+                                            <td class="product-subtotal" data-title="Total">$23.00</td> 
+                                        </tr>
+                                        <tr> 
+                                            <td class="product-name">
+                                                <a href="demo-decor-store-single-product.html" class="text-dark-gray fw-500 d-block lh-initial">Designer pot</a> 
+                                                <span class="fs-14">Color: Brown</span>
+                                            </td>
+                                            <td class="product-price" data-title="Price">$35.00</td>
+                                            <td class="product-quantity" data-title="Quantity">
+                                                <div class="quantity">
+                                                    <button type="button" class="qty-minus">-</button>
+                                                    <input class="qty-text" type="text" id="2" value="1" aria-label="qty-text">
+                                                    <button type="button" class="qty-plus">+</button>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#regular-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Regular Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
+                                            </td> 
+                                            <td class="product-subtotal" data-title="Total">$70.00</td> 
+                                        </tr>
+                                        <tr> 
+                                            <td class="product-name">
+                                                <a href="demo-decor-store-single-product.html" class="text-dark-gray fw-500 d-block lh-initial">Ceramic mug</a> 
+                                                <span class="fs-14">Color: White</span>
+                                            </td>
+                                            <td class="product-price" data-title="Price">$15.00</td>
+                                            <td class="product-quantity" data-title="Quantity">
+                                                <div class="quantity">
+                                                    <button type="button" class="qty-minus">-</button>
+                                                    <input class="qty-text" type="text" id="3" value="1" aria-label="qty-text">
+                                                    <button type="button" class="qty-plus">+</button>
                                                 </div>
-                                            </a>
-                                        </div>
-                                        <div id="regular-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control" id="regular-cleaning-frequency">
-                                                            <option value="">--</option>
-                                                            <option value="One Time">One Time</option>
-                                                            <option value="Weekly">Weekly</option>
-                                                            <option value="Monthly">Monthly</option>
-                                                            <option value="Yearly">Yearly</option>
-                                                            <option value="Every Other Week">Every Other Week</option>
-                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Duration</label>
-                                                        <select class="form-control" id="regular-cleaning-duration">
-                                                            <option value="">--</option>
-                                                            <option value="1">1 Hour</option>
-                                                            <option value="2">2 Hours</option>
-                                                            <option value="3">3 Hours</option>
-                                                            <option value="4">4 Hours</option>
-                                                            <option value="5">5 Hours</option>
-                                                            <option value="6">6 Hours</option>
-                                                            <option value="7">7 Hours</option>
-                                                            <option value="8">8 Hours</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#office-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Office Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="office-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control" id="office-cleaning-frequency">
-                                                            <option value="">--</option>
-                                                            <option value="One Time">One Time</option>
-                                                            <option value="Weekly">Weekly</option>
-                                                            <option value="Monthly">Monthly</option>
-                                                            <option value="Yearly">Yearly</option>
-                                                            <option value="Every Other Week">Every Other Week</option>
-                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Duration</label>
-                                                        <select class="form-control" id="office-cleaning-duration">
-                                                            <option value="">--</option>
-                                                            <option value="1">1 Hour</option>
-                                                            <option value="2">2 Hours</option>
-                                                            <option value="3">3 Hours</option>
-                                                            <option value="4">4 Hours</option>
-                                                            <option value="5">5 Hours</option>
-                                                            <option value="6">6 Hours</option>
-                                                            <option value="7">7 Hours</option>
-                                                            <option value="8">8 Hours</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#flat-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Flat Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="flat-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control" id="flat-cleaning-frequency">
-                                                            <option value="">--</option>
-                                                            <option value="One Time">One Time</option>
-                                                            <option value="Weekly">Weekly</option>
-                                                            <option value="Monthly">Monthly</option>
-                                                            <option value="Yearly">Yearly</option>
-                                                            <option value="Every Other Week">Every Other Week</option>
-                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Duration</label>
-                                                        <select class="form-control" id="flat-cleaning-duration">
-                                                            <option value="">--</option>
-                                                            <option value="1">1 Hour</option>
-                                                            <option value="2">2 Hours</option>
-                                                            <option value="3">3 Hours</option>
-                                                            <option value="4">4 Hours</option>
-                                                            <option value="5">5 Hours</option>
-                                                            <option value="6">6 Hours</option>
-                                                            <option value="7">7 Hours</option>
-                                                            <option value="8">8 Hours</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#hospital-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Hospital Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="hospital-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Frequency</label>
-                                                        <select class="form-control" id="hospital-cleaning-frequency">
-                                                            <option value="">--</option>
-                                                            <option value="One Time">One Time</option>
-                                                            <option value="Weekly">Weekly</option>
-                                                            <option value="Monthly">Monthly</option>
-                                                            <option value="Yearly">Yearly</option>
-                                                            <option value="Every Other Week">Every Other Week</option>
-                                                            <option value="Every 4 Weeks">Every 4 Weeks</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-6 mb-20px">
-                                                        <label class="mb-10px">Duration</label>
-                                                        <select class="form-control" id="hospital-cleaning-duration">
-                                                            <option value="">--</option>
-                                                            <option value="1">1 Hour</option>
-                                                            <option value="2">2 Hours</option>
-                                                            <option value="3">3 Hours</option>
-                                                            <option value="4">4 Hours</option>
-                                                            <option value="5">5 Hours</option>
-                                                            <option value="6">6 Hours</option>
-                                                            <option value="7">7 Hours</option>
-                                                            <option value="8">8 Hours</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#sofa-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Sofa Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="sofa-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-12 mb-20px">
-                                                        <label class="mb-10px">Number of Seats</label>
-                                                        <input type="number" class="form-control" id="sofa-cleaning-number-of-seats">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#mattress-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Mattress Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="mattress-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-12 mb-20px">
-                                                        <label class="mb-10px">Meters</label>
-                                                        <input type="number" class="form-control" id="mattress-cleaning-meters">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#curtain-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Curtain Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="curtain-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-12 mb-20px">
-                                                        <label class="mb-10px">Meters</label>
-                                                        <input type="number" class="form-control" id="curtain-cleaning-meters">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                    <!-- start accordion item -->
-                                    <div class="accordion-item">
-                                        <div class="accordion-header border-bottom border-color-extra-medium-gray mb-0">
-                                            <a href="#" data-bs-toggle="collapse" data-bs-target="#carpet-cleaning-accordion" aria-expanded="true" data-bs-parent="#accordion-style-04">
-                                                <div class="accordion-title position-relative mb-0 pe-20px text-dark-gray fw-600 alt-font fs-18">
-                                                    <span>Carpet Cleaning</span>
-                                                    <i class="fa-solid fa-angle-down icon-small"></i>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div id="carpet-cleaning-accordion" class="accordion-collapse collapse" data-bs-parent="#accordion-style-04">
-                                            <div class="accordion-body bg-white last-paragraph-no-margin">
-                                                <div class="row">
-                                                    <div class="col-md-12 mb-20px">
-                                                        <label class="mb-10px">Meters</label>
-                                                        <input type="number" class="form-control" id="carpet-cleaning-meters">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end accordion item -->
-                                </div>
-                            </div>
-                            <span class="fs-26 alt-font fw-600 text-dark-gray mb-20px d-block">Customer Information Form</span>  
-                            <div class="row">
-                                <div class="col-md-6 mb-20px">
-                                    <label class="mb-10px">First name <span class="text-red">*</span></label>
-                                    <input class="form-control" type="text" aria-label="text" required>
-                                </div>
-                                <div class="col-md-6 mb-20px">
-                                    <label class="mb-10px">Last name <span class="text-red">*</span></label>
-                                    <input class="form-control" type="text" aria-label="text" required>
-                                </div>
-                                <div class="col-12 mb-20px">
-                                    <label class="mb-10px">Location</label>
-                                    <input class="form-control" type="text" aria-label="text">
-                                </div>
-                                <div class="col-12 mb-20px">
-                                    <label class="mb-10px">Phone <span class="text-red">*</span></label>
-                                    <input class="form-control" type="text" required>
-                                </div>
-                                <div class="col-12 mb-20px">
-                                    <label class="mb-10px">Email address <span class="text-red">*</span></label>
-                                    <input class="form-control" type="email" required>
-                                </div>
-                                <div class="col-6 mb-20px">
-                                    <label class="mb-10px">Date <span class="text-red">*</span></label>
-                                    <input class="form-control" type="date" name="date" value="2023-08-01" min="2023-08-01" max="2099-12-31" aria-label="date"> 
-                                </div>
-                                <div class="col-6 mb-20px">
-                                    <label class="mb-10px">Time <span class="text-red">*</span></label>
-                                    <select class="form-control">
-                                        <option value="">--</option>
-                                        <option>9:00 AM</option>
-                                        <option>10:00 AM</option>
-                                        <option>11:00 AM</option>
-                                        <option>12:00 PM</option>
-                                        <option>1:00 PM</option>
-                                        <option>2:00 PM</option>
-                                        <option>3:00 PM</option>
-                                        <option>4:00 PM</option>
-                                        <option>5:00 PM</option>
-                                        <option>6:00 PM</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-12 mb-20px">
-                                    <label class="mb-10px">How many professionals do you need? <span class="text-red">*</span></label>
-                                    <select class="form-control">
-                                        <option value="">--</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
-                                        <option>7</option>
-                                        <option>8</option>
-                                        <option>9</option>
-                                        <option>10</option>
-                                        <option>11</option>
-                                        <option>12</option>
-                                        <option>13</option>
-                                        <option>14</option>
-                                        <option>15</option>
-                                        <option>16</option>
-                                        <option>17</option>
-                                        <option>18</option>
-                                        <option>19</option>
-                                        <option>20</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-12 mb-20px">
-                                    <label class="mb-10px">How many hours do your professionals stay? <span class="text-red">*</span></label>
-                                    <select class="form-control">
-                                        <option value="">--</option>
-                                        <option>1 Hour</option>
-                                        <option>2 Hours</option>
-                                        <option>3 Hours</option>
-                                        <option>4 Hours</option>
-                                        <option>5 Hours</option>
-                                        <option>6 Hours</option>
-                                        <option>7 Hours</option>
-                                        <option>8 Hours</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 mb-20px">
-                                    <label class="mb-10px">Need Cleaning Materials? <span class="text-red">*</span></label>
-                                    <select class="form-control">
-                                        <option value="">--</option>
-                                        <option>No I have them</option>
-                                        <option>Yes Please</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 mb-20px">
-                                    <label class="mb-10px">Choose your professional nationality<span class="text-red">*</span></label>
-                                    <select class="form-control">
-                                        <option value="">--</option>
-                                        <option>African</option>
-                                        <option>Filipino</option>
-                                        <option>Nepali</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <label class="mb-10px">Order notes (optional)</label>
-                                    <textarea class="form-control textarea-small" rows="5" cols="5" placeholder="Notes about your order, e.g. special notes for the ."></textarea>
-                                </div>
-                            </div>
-                        </form>
+                                            </td> 
+                                            <td class="product-subtotal" data-title="Total">$15.00</td> 
+                                        </tr>
+                                    </tbody>
+                                </table>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-4">
                         <div class="bg-very-light-gray border-radius-6px p-50px lg-p-25px your-order-box">
                             <span class="fs-26 alt-font fw-600 text-dark-gray mb-5px d-block">Your order</span>
                             <table class="w-100 total-price-table your-order-table">
